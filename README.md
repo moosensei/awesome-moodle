@@ -258,6 +258,12 @@
 
 ---
 
+
+## 📧 Contact
+
+For questions, suggestions, or collaboration opportunities, feel free to reach out:
+- **Email**: [madewithmoodle@gmail.com](mailto:madewithmoodle@gmail.com)
+
 ## 🤝 Contributing
 
 Your contributions are always welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
