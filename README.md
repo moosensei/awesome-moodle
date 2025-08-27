@@ -7,8 +7,6 @@
 [![Last Commit](https://img.shields.io/github/last-commit/moosensei/awesome-moodle.svg)](https://github.com/moosensei/awesome-moodle/commits/main)
 
 <div align="center">
-  <img src="https://moodle.org/theme/moodleorg/pix/moodle_logo.svg" alt="Moodle Logo" width="200"/>
-  
   <h3>🎓 A curated list of awesome Moodle resources, plugins, themes, and tools</h3>
   <p>
     <em>Discover the best resources to enhance your Moodle experience - from development to deployment!</em>
@@ -17,6 +15,10 @@
   <p>
     <strong>🌟 Star this repository if you found it helpful!</strong><br>
     <em>Help others discover these amazing Moodle resources</em>
+  </p>
+  
+  <p>
+    📧 <strong>Contact:</strong> <a href="mailto:madewithmoodle@gmail.com">madewithmoodle@gmail.com</a>
   </p>
 </div>
 
@@ -351,6 +353,7 @@ New to Moodle? Start here:
 - 🎓 [Moodle Certified Educator](https://moodle.academy/badges/educator) - Teaching proficiency
 - ⚙️ [Moodle Certified Administrator](https://moodle.academy/badges/administrator) - System management
 - 🎨 [Moodle Certified Designer](https://moodle.academy/badges/designer) - UX/UI design
+- 🏢 [Moodle Partner Certification](https://moodle.com/certified-service-providers/) - Business partnership.
 
 [🔝 Back to top](#-contents)
 
@@ -690,7 +693,7 @@ New to Moodle? Start here:
 - 🇪🇸 [Documentación en Español](https://docs.moodle.org/es/) - Spanish documentation
 - 🇫🇷 [Documentation Française](https://docs.moodle.org/fr/) - French documentation
 - 🇩🇪 [Deutsche Dokumentation](https://docs.moodle.org/de/) - German documentation
-- 🇮🇹 [Documentazione Italiana](https://docs.moodle.org/it/) - Italian documentation
+- 🇮🇹 [Documentación Italiana](https://docs.moodle.org/it/) - Italian documentation
 - 🇵🇹 [Documentação Portuguesa](https://docs.moodle.org/pt_br/) - Portuguese documentation
 - 🇯🇵 [日本語ドキュメント](https://docs.moodle.org/ja/) - Japanese documentation
 - 🇨🇳 [中文文档](https://docs.moodle.org/zh_cn/) - Chinese documentation
@@ -699,7 +702,7 @@ New to Moodle? Start here:
 - 🇪🇸 [Moodle en Español](https://moodle.org/course/view.php?id=11&lang=es) - Spanish-speaking community
 - 🇫🇷 [Communauté Française](https://moodle.org/course/view.php?id=11&lang=fr) - French community
 - 🇩🇪 [Deutsche Gemeinschaft](https://moodle.org/course/view.php?id=11&lang=de) - German community
-- 🇮🇹 [Comunità Italiana](https://moodle.org/course/view.php?id=11&lang=it) - Italian community
+- 🇮🇹 [Comunidad Italiana](https://moodle.org/course/view.php?id=11&lang=it) - Italian community
 - 🇧🇷 [Comunidade Brasileira](https://moodle.org/course/view.php?id=11&lang=pt_br) - Brazilian community
 - 🇯🇵 [日本のコミュニティ](https://moodle.org/course/view.php?id=11&lang=ja) - Japanese community
 
