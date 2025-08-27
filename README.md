@@ -7,6 +7,10 @@
 [![Last Commit](https://img.shields.io/github/last-commit/moosensei/awesome-moodle.svg)](https://github.com/moosensei/awesome-moodle/commits/main)
 
 <div align="center">
+  <img src="https://github.com/user-attachments/assets/8ec0c4b8-c842-4375-a12b-97e87949d9b0" alt="Awesome Moodle Summary" width="100%"/>
+</div>
+
+<div align="center">
   <h3>🎓 A curated list of awesome Moodle resources, plugins, themes, and tools</h3>
   <p>
     <em>Discover the best resources to enhance your Moodle experience - from development to deployment!</em>
