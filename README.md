@@ -107,6 +107,12 @@ New to Moodle? Start here:
 - 📋 [Checklist](https://moodle.org/plugins/mod_checklist) ![Free](https://img.shields.io/badge/Free-green) - Progress tracking tool
 - 🗳️ [Choice Group](https://moodle.org/plugins/mod_choicegroup) ![Free](https://img.shields.io/badge/Free-green) - Group selection activity
 - 📱 [Student Folder](https://moodle.org/plugins/mod_publication) ![Free](https://img.shields.io/badge/Free-green) - File sharing and collaboration
+- 💻 [Virtual Programming Lab](https://moodle.org/plugins/mod_vpl) ![Free](https://img.shields.io/badge/Free-green) - Programming assignment management with code execution
+- 📅 [Booking](https://moodle.org/plugins/mod_booking) ![Free](https://img.shields.io/badge/Free-green) - Manage participants and subscriptions for events
+- 🛍️ [Shopping Cart](https://moodle.org/plugins/local_shopping_cart) ![Free](https://img.shields.io/badge/Free-green) - Complete e-commerce system for Moodle
+- 🎮 [Gamoteca](https://moodle.org/plugins/mod_gamoteca) ![Premium](https://img.shields.io/badge/Premium-orange) - Multi-player creator platform (Certified Integration)
+- 📚 [Wunderbyte Table](https://moodle.org/plugins/local_wunderbyte_table) ![Free](https://img.shields.io/badge/Free-green) - Enhanced table library with templates
+- 📥 [Download Center](https://moodle.org/plugins/local_downloadcenter) ![Free](https://img.shields.io/badge/Free-green) - Centralized download management
 
 ### 🎨 Course Design
 - 🖼️ [Edwiser Course Formats](https://edwiser.org/course-formats/) ![Premium](https://img.shields.io/badge/Premium-orange) - Engaging course layouts
@@ -134,6 +140,7 @@ New to Moodle? Start here:
 - 🏢 [LDAP](https://docs.moodle.org/en/LDAP_authentication) ![Free](https://img.shields.io/badge/Free-green) - LDAP/Active Directory integration
 - 🔒 [Two-Factor Authentication](https://moodle.org/plugins/auth_totp) ![Free](https://img.shields.io/badge/Free-green) - Enhanced login security
 - 🛡️ [Security Report](https://moodle.org/plugins/report_security) ![Free](https://img.shields.io/badge/Free-green) - Security audit tool
+- ✍️ [Cursive](https://moodle.org/plugins/plagiarism_cursive) ![Premium](https://img.shields.io/badge/Premium-orange) - Authorship verification and written integrity (Certified Integration)
 
 ### 🤖 AI & Machine Learning
 - 🧠 [AI Text Generator](https://moodle.org/plugins/local_ai_manager) ![Free](https://img.shields.io/badge/Free-green) - AI-powered content generation
@@ -142,10 +149,20 @@ New to Moodle? Start here:
 - 🔍 [Plagiarism Detection](https://moodle.org/plugins/plagiarism_turnitin) ![Premium](https://img.shields.io/badge/Premium-orange) - AI-powered plagiarism checking
 - 🎓 [Learning Path AI](https://moodle.org/plugins/local_learningpath) ![Premium](https://img.shields.io/badge/Premium-orange) - Personalized learning paths
 - 🤖 [Chatbot Integration](https://moodle.org/plugins/local_chatbot) ![Free](https://img.shields.io/badge/Free-green) - AI assistant for students
+- 💬 [GeniAI](https://moodle.org/plugins/local_geniai) ![Free](https://img.shields.io/badge/Free-green) - ChatGPT assistant for instant student support
+- 🎙️ [Forum AI](https://moodle.org/plugins/local_forum_ai) ![Free](https://img.shields.io/badge/Free-green) - AI integration for interactive forum discussions
+- 🔗 [AI Connector](https://moodle.org/plugins/local_ai_connector) ![Free](https://img.shields.io/badge/Free-green) - Connect to ChatGPT, DALL-E, and Stable Diffusion
+- 💭 [OpenAI Chat Block](https://moodle.org/plugins/block_openai_chat) ![Free](https://img.shields.io/badge/Free-green) - 24/7 GPT-powered chat support
+- 🗨️ [AI Chat Block](https://moodle.org/plugins/block_ai_chat) ![Free](https://img.shields.io/badge/Free-green) - Full-featured chatbot with history
+- 📊 [Datacurso AI Provider](https://moodle.org/plugins/aiprovider_datacurso) ![Free](https://img.shields.io/badge/Free-green) - Core AI engine for Datacurso services
+- 📈 [Student Life Story AI](https://moodle.org/plugins/local_studentlifestory) ![Free](https://img.shields.io/badge/Free-green) - AI-powered academic trajectory analysis
+- 📄 [Assignment AI](https://moodle.org/plugins/local_assignmentai) ![Free](https://img.shields.io/badge/Free-green) - Intelligent grading automation
+- ❓ [Generative AI Question Bank](https://moodle.org/plugins/qbank_genai) ![Free](https://img.shields.io/badge/Free-green) - Generate quiz questions from course content
 
 ### 📱 Mobile & Accessibility
 - 📱 [Moodle Mobile](https://moodle.org/plugins/local_mobile) ![Free](https://img.shields.io/badge/Free-green) - Official mobile app support
 - ♿ [Accessibility Tools](https://moodle.org/plugins/local_accessibility) ![Free](https://img.shields.io/badge/Free-green) - Enhanced accessibility features
+- 📊 [Accessibility Overview](https://moodle.org/plugins/block_accessibility_overview) ![Free](https://img.shields.io/badge/Free-green) - Concise accessibility status overview (Certified Integration)
 - 🔊 [Text-to-Speech](https://moodle.org/plugins/atto_speechsynthesis) ![Free](https://img.shields.io/badge/Free-green) - Audio content generation
 - 👁️ [High Contrast](https://moodle.org/plugins/theme_accessibility) ![Free](https://img.shields.io/badge/Free-green) - Accessibility-focused theme
 - 📖 [Screen Reader Support](https://moodle.org/plugins/local_screenreader) ![Free](https://img.shields.io/badge/Free-green) - Enhanced screen reader compatibility
@@ -211,8 +228,10 @@ New to Moodle? Start here:
 - 🎨 [Component Library](https://moodledev.io/general/development/tools/component-library) - UI component showcase
 - 🔍 [Code Checker](https://moodle.org/plugins/local_codechecker) ![Free](https://img.shields.io/badge/Free-green) - Code quality validation
 - 📊 [Moodle Performance Toolkit](https://github.com/moodlehq/moodle-performance-toolkit) - Performance testing tools
+- 🛠️ [Moodle Toolbox](https://github.com/mudrd8mz/moodle-toolbox) - Utilities for development and administration
+- 💻 [FMCorz MDK](https://github.com/FMCorz/mdk) - Collection of tools to make developers' lives easier
 
-### 🏗️ Development Environment
+### 🏭️ Development Environment
 - 🐳 [Moodle Docker](https://github.com/moodlehq/moodle-docker) - Docker environment setup
 - ⚡ [Local Development](https://moodledev.io/general/development/gettingstarted) - Setup guides
 - 🧪 [PHPUnit Testing](https://moodledev.io/general/development/tools/phpunit) - Unit testing framework
@@ -276,7 +295,8 @@ New to Moodle? Start here:
 
 | Version | Type | PHP Support | Release Date | Support Until | Status |
 |---------|------|-------------|--------------|---------------|--------|
-| 🔥 [Moodle 5.0.1](https://download.moodle.org/releases/latest/) | Latest | PHP 8.2+ | June 2025 | June 2026 | ✅ Active |
+| 🔥 [Moodle 5.1](https://download.moodle.org/releases/latest/) | Latest | PHP 8.2+ | November 2025 | November 2026 | ✅ Active |
+| 🌟 [Moodle 5.0](https://download.moodle.org/releases/supported/) | Stable | PHP 8.2+ | June 2025 | June 2026 | ✅ Active |
 | 🏆 [Moodle 4.5 LTS](https://download.moodle.org/releases/supported/) | LTS | PHP 8.0+ | October 2024 | October 2027 | ✅ LTS |
 | 📱 [Moodle App 4.5](https://moodledev.io/general/app_releases) | Mobile | - | Regular | - | ✅ Active |
 | 🔧 [Moodle 4.4](https://download.moodle.org/releases/supported/) | Stable | PHP 8.0+ | April 2024 | December 2025 | ✅ Supported |
@@ -290,7 +310,8 @@ New to Moodle? Start here:
 - 📈 [Roadmap](https://moodledev.io/general/roadmap) - Future development plans
 
 ### 🆕 What's New
-- ✨ **Moodle 5.0 Features**: Enhanced AI integration, improved mobile experience, new analytics
+- ✨ **Moodle 5.1 Features**: New activity selector, double correction for assignments, BigBlueButton improvements
+- 🤖 **AI Subsystem**: Introduced in Moodle 4.5, foundation for integrating AI tools with any LLM
 - 🎯 **LTS Benefits**: Long-term support, stability, extended security updates
 - 📱 **Mobile Improvements**: Better offline support, enhanced notifications
 - 🔒 **Security Enhancements**: Advanced authentication, improved privacy controls
@@ -315,10 +336,12 @@ New to Moodle? Start here:
 - 🔌 [Plugin Development](https://www.youtube.com/watch?v=plugin-dev-tutorial) - Building custom plugins
 
 ### 🌟 Community Channels
-- 📺 [Moodle Tips & Tricks](https://www.youtube.com/channel/moodle-tips) - Weekly tips
-- 🎯 [Advanced Moodle](https://www.youtube.com/channel/advanced-moodle) - Expert tutorials
-- 🎓 [Moodle for Educators](https://www.youtube.com/channel/moodle-educators) - Teaching strategies
-- 🔧 [Moodle Admin](https://www.youtube.com/channel/moodle-admin) - Administration guides
+- 📺 [ELearning Portal](https://www.youtube.com/@elearningportal.education) - Master Moodle training and course development (3.87K+ subscribers)
+- 🎯 [Ricoshae](https://www.youtube.com/@Ricoshae/videos) - Online course platform development and training (3.57K+ subscribers)
+- 🐱 [WiseCat](https://www.youtube.com/@Wise-Cat) - EdTech tutorials, Moodle 5.1 guides and security (1.62K+ subscribers)
+- 📚 [LMS Daily](https://www.youtube.com/@lmsdaily) - E-learning services and Moodle tutorials (1.44K+ subscribers)
+- 💻 [Tech Gyan AI](https://www.youtube.com/@tech_gyans) - Moodle development and plugin tutorials (1.74K+ subscribers)
+- 🎓 [Get Interactive](https://www.youtube.com/@JohanVenterELearning) - H5P, PowerPoint and Moodle for online teaching (770+ subscribers)
 
 ### 📱 Podcasts
 - 🎙️ [MoodleBites](https://www.moodlebites.com/) - Weekly Moodle podcast
