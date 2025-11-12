@@ -889,7 +889,7 @@ Special thanks to:
   </p>
   
   <p>
-    <em>Last updated: August 2025 | Next update: September 2025</em>
+    <em>Last updated: November 2025 | Next update: December 2025</em>
   </p>
 </div>
 
