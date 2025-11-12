@@ -337,7 +337,7 @@ New to Moodle? Start here:
 
 ### 🌟 Community Channels
 - 📺 [ELearning Portal](https://www.youtube.com/@elearningportal.education) - Master Moodle training and course development (3.87K+ subscribers)
-- 🎯 [Ricoshae](https://www.youtube.com/@Ricoshae/videos) - Online course platform development and training (3.57K+ subscribers)
+- 🎯 [Ricoshae](https://www.youtube.com/@Ricoshae) - Online course platform development and training (3.57K+ subscribers)
 - 🐱 [WiseCat](https://www.youtube.com/@Wise-Cat) - EdTech tutorials, Moodle 5.1 guides and security (1.62K+ subscribers)
 - 📚 [LMS Daily](https://www.youtube.com/@lmsdaily) - E-learning services and Moodle tutorials (1.44K+ subscribers)
 - 💻 [Tech Gyan AI](https://www.youtube.com/@tech_gyans) - Moodle development and plugin tutorials (1.74K+ subscribers)
