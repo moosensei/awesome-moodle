@@ -7,7 +7,7 @@
 [![Last Commit](https://img.shields.io/github/last-commit/moosensei/awesome-moodle.svg)](https://github.com/moosensei/awesome-moodle/commits/main)
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/8ec0c4b8-c842-4375-a12b-9e87949d9b0" alt="Awesome Moodle Summary" width="100%"/>
+  <img src="https://github.com/user-attachments/assets/8ec0c4b8-c842-4375-a12b-97e87949d9b0" alt="Awesome Moodle Summary" width="100%"/>
 </div>
 
 <div align="center">
