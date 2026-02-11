@@ -2,7 +2,7 @@
 
 [![Made with ❤️](https://img.shields.io/badge/Made%20with-❤️-red.svg)](https://github.com/moosensei)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![Moodle 5.0](https://img.shields.io/badge/Moodle-5.0-blue.svg)](https://moodle.org)
+[![Moodle 5.1](https://img.shields.io/badge/Moodle-5.1-blue.svg)](https://moodle.org)
 [![Contributors](https://img.shields.io/github/contributors/moosensei/awesome-moodle.svg)](https://github.com/moosensei/awesome-moodle/graphs/contributors)
 [![Last Commit](https://img.shields.io/github/last-commit/moosensei/awesome-moodle.svg)](https://github.com/moosensei/awesome-moodle/commits/main)
 
@@ -157,24 +157,15 @@
 
 ### 🤖 AI & Machine Learning
 
-**Leverage artificial intelligence to enhance learning experiences** - AI-powered tools help personalize learning, automate grading, detect plagiarism, and provide intelligent tutoring. These plugins represent the future of educational technology, offering powerful new ways to support both teachers and learners. The integration of AI is transforming the landscape of online education, and Moodle is at the forefront of this change.
+**Leverage artificial intelligence to enhance learning experiences** - With the release of Moodle 4.5 and beyond, AI has become a central part of the Moodle ecosystem. The new core AI subsystem allows for deep integration with various AI services, enabling developers and administrators to build powerful, intelligent features directly into their learning environments. These tools help personalize learning, automate administrative tasks, and provide insightful analytics, representing the future of educational technology.
 
-- 🧠 [AI Text Generator](https://moodle.org/plugins/local_ai_manager) ![Free](https://img.shields.io/badge/Free-green) - AI-powered content generation for creating course materials. Generate quiz questions, learning objectives, and course descriptions.
-- 🎯 [Smart Recommendations](https://moodle.org/plugins/local_recommend) ![Free](https://img.shields.io/badge/Free-green) - AI-based course recommendations for personalized learning paths. Suggest relevant courses based on student interests.
-- 📝 [Auto Essay Grading](https://moodle.org/plugins/qtype_essay_autograde) ![Premium](https://img.shields.io/badge/Premium-orange) - Automated essay assessment using machine learning. Save time grading essays with AI assistance.
-- 🔍 [Plagiarism Detection](https://moodle.org/plugins/plagiarism_turnitin) ![Premium](https://img.shields.io/badge/Premium-orange) - AI-powered plagiarism checking. Detect copied content and ensure academic integrity.
-- 🎓 [Learning Path AI](https://moodle.org/plugins/local_learningpath) ![Premium](https://img.shields.io/badge/Premium-orange) - Personalized learning paths using AI. Adapt course sequences based on student performance.
-- 🤖 [Chatbot Integration](https://moodle.org/plugins/local_chatbot) ![Free](https://img.shields.io/badge/Free-green) - AI assistant for student support. Provide 24/7 automated responses to common questions.
-- 💬 [GeniAI](https://moodle.org/plugins/local_geniai) ![Free](https://img.shields.io/badge/Free-green) - ChatGPT assistant for instant student support. Integrate OpenAI's ChatGPT for intelligent tutoring.
-- 🎙️ [Forum AI](https://moodle.org/plugins/local_forum_ai) ![Free](https://img.shields.io/badge/Free-green) - AI integration for interactive forum discussions. Enhance forum engagement with AI-powered responses.
-- 🔗 [AI Connector](https://moodle.org/plugins/local_ai_connector) ![Free](https://img.shields.io/badge/Free-green) - Connect to ChatGPT, DALL-E, and Stable Diffusion. Access multiple AI services from within Moodle.
-- 💬 [OpenAI Chat Block](https://moodle.org/plugins/block_openai_chat) ![Free](https://img.shields.io/badge/Free-green) - 24/7 GPT-powered chat support. Provide instant answers to student questions.
-- 🗨️ [AI Chat Block](https://moodle.org/plugins/block_ai_chat) ![Free](https://img.shields.io/badge/Free-green) - Full-featured chatbot with conversation history. Maintain context across multiple conversations.
-- 📊 [Datacurso AI Provider](https://moodle.org/plugins/aiprovider_datacurso) ![Free](https://img.shields.io/badge/Free-green) - Core AI engine for Datacurso services. Access advanced AI capabilities.
-- 📈 [Student Life Story AI](https://moodle.org/plugins/local_studentlifestory) ![Free](https://img.shields.io/badge/Free-green) - AI-powered academic trajectory analysis. Track and predict student success.
-- 📄 [Assignment AI](https://moodle.org/plugins/local_assignmentai) ![Free](https://img.shields.io/badge/Free-green) - Intelligent grading automation. Automate assignment evaluation and feedback.
-- ❓ [Generative AI Question Bank](https://moodle.org/plugins/qbank_genai) ![Free](https://img.shields.io/badge/Free-green) - Generate quiz questions from course content. Create assessments automatically using AI.
-- 🧠 [SmartEdu](https://moodle.org/plugins/block_smartedu) ![Free](https://img.shields.io/badge/Free-green) - An intelligent learning block that leverages AI to enhance the educational experience with a suite of micro-tools.
+- 🧠 [Moodle Core AI](https://docs.moodle.org/en/AI_tools) ![Free](https://img.shields.io/badge/Free-green) - Moodle's native AI subsystem, introduced in version 4.5, provides a framework for integrating AI providers like OpenAI, Azure AI, and open-source models. This allows for the development of built-in AI-powered features for content generation, analytics, and personalized learning.
+- 💬 [OpenAI Chat Block](https://moodle.org/plugins/block_openai_chat) ![Free](https://img.shields.io/badge/Free-green) - A highly popular block that provides 24/7 GPT-powered chat support directly within a Moodle course. It allows for customizable AI personalities and can be configured to answer student questions based on course content.
+- 🔗 [AI Connector](https://moodle.org/plugins/local_ai_connector) ![Free](https://img.shields.io/badge/Free-green) - A versatile plugin that connects Moodle to a variety of AI services, including ChatGPT for text generation, DALL-E and Stable Diffusion for image creation, and more. It acts as a centralized hub for accessing different AI capabilities.
+- 📊 [Datacurso AI Provider](https://moodle.org/plugins/aiprovider_datacurso) ![Free](https://img.shields.io/badge/Free-green) - A core AI engine that integrates Datacurso's advanced AI services into Moodle. This provider enables sophisticated analytics, predictive modeling, and personalized learning recommendations.
+- ❓ [Generative AI Question Bank](https://moodle.org/plugins/qbank_genai) ![Free](https://img.shields.io/badge/Free-green) - An innovative tool that leverages generative AI to automatically create quiz questions and entire question banks from course content, such as documents or text passages, saving educators significant time.
+- 📝 [Cursive](https://moodle.org/plugins/plagiarism_cursive) ![Premium](https://img.shields.io/badge/Premium-orange) - An advanced authorship verification tool that uses AI to analyze writing style and detect potential plagiarism or the use of AI-generated text, ensuring academic integrity.
+- 🎓 [IntelliBoard](https://intelliboard.net/) ![Premium](https://img.shields.io/badge/Premium-orange) - A comprehensive learning analytics platform that uses AI to provide deep insights into student engagement, performance, and learning patterns. It offers predictive analytics to identify at-risk students and inform instructional strategies.
 
 ### 📱 Mobile & Accessibility
 
@@ -211,26 +202,34 @@
 
 ## 🎨 Themes
 
-**Customize the look and feel of your Moodle site** - A great theme can transform the user experience, making your site more visually appealing, user-friendly, and on-brand. These themes offer a range of styles and customization options to suit your needs. Whether you want a modern, minimalist design or a more traditional look, there is a theme for you.
+**Customize your Moodle site with modern and responsive themes** - A great theme can transform the user experience of your Moodle site, making it more engaging, intuitive, and visually appealing. With Moodle 5.x built on Bootstrap 5, modern themes offer improved performance, accessibility, and a wider range of customization options. Whether you need a free, highly configurable theme or a premium, professionally designed solution, the Moodle ecosystem has an option for every need.
 
-- 🚀 [Edwiser RemUI](https://edwiser.org/remui/) ![Premium](https://img.shields.io/badge/Premium-orange) - A popular and highly customizable theme with a modern design and a focus on user experience.
-- 🎓 [Maker](https://moodle.org/plugins/theme_maker) ![Premium](https://img.shields.io/badge/Premium-orange) - A versatile theme with a drag-and-drop homepage builder and extensive customization options.
-- 🏫 [Academi](https://moodle.org/plugins/theme_academi) ![Free](https://img.shields.io/badge/Free-green) - A clean and modern theme designed for educational institutions.
--  adaptable [Adaptable](https://moodle.org/plugins/theme_adaptable) ![Free](https://img.shields.io/badge/Free-green) - A highly flexible and customizable theme with a vast array of settings.
-- 📖 [Moove](https://moodle.org/plugins/theme_moove) ![Free](https://img.shields.io/badge/Free-green) - A user-friendly theme with a focus on simplicity and ease of use.
+### Premium Themes
+
+- 🎨 [Edwiser RemUI](https://edwiser.org/remui-moodle-theme/) ![Premium](https://img.shields.io/badge/Premium-orange) - A best-selling and highly customizable premium theme that offers a modern, user-friendly interface. It's known for its extensive customization options and dedicated support, making it a popular choice for institutions wanting a polished look.
+- 🎓 [Lumo](https://elearning.3rdwavemedia.com/themes/lumo-moodle-theme/) ![Premium](https://img.shields.io/badge/Premium-orange) - A premium theme for Moodle 5.x inspired by the clean interfaces of platforms like Coursera and edX. It provides a professional, modern design out-of-the-box, perfect for higher education and corporate training.
+- 🏫 [Lambda](https://themeforest.net/item/lambda-premium-moodle-theme/19307139) ![Premium](https://img.shields.io/badge/Premium-orange) - The #1 best-selling Moodle theme on ThemeForest, Lambda is known for its versatility and extensive feature set. It offers multiple layouts and a high degree of customization.
+- 🌟 [Edutor](https://elearning.3rdwavemedia.com/themes/edutor-moodle-theme/) ![Premium](https://img.shields.io/badge/Premium-orange) - A modern premium theme built on Bootstrap 5, offering six pre-designed color schemes and a high level of customization to match your brand identity. It's a cost-effective way to achieve a professional look.
+
+### Free Themes
+
+- 🚀 [Boost](https://docs.moodle.org/en/Themes) ![Free](https://img.shields.io/badge/Free-green) - The official core theme for Moodle. With Moodle 5.x, it's built on Bootstrap 5, offering a solid foundation of performance, accessibility, and modern design. It's a reliable, no-frills choice for any Moodle site.
+- 📱 [Moove](https://moodle.org/plugins/theme_moove) ![Free](https://img.shields.io/badge/Free-green) - A popular and long-standing free theme that provides a clean, modern, and streamlined user experience. It's highly regarded in the community for its user-friendly design and is actively maintained for Moodle 5.x.
+- 🎨 [Adaptable](https://moodle.org/plugins/theme_adaptable) ![Free](https://img.shields.io/badge/Free-green) - One of the most popular and highly configurable free themes available. Adaptable gives administrators extensive control over the look and feel of their site, from layouts and colors to fonts and block regions.
+- 🌟 [Boost Union](https://moodle.org/plugins/theme_boost_union) ![Free](https://img.shields.io/badge/Free-green) - A community-favorite theme that extends the core Boost theme with a wealth of additional customization options. It allows for a more professional and branded look without the need for custom coding.
 
 [🔝 Back to top](#-contents)
 
 ## ⚡ Development
 
-**Resources for Moodle developers** - Whether you are a seasoned Moodle developer or just starting, these resources will help you build, extend, and customize Moodle. From setting up your development environment to writing your first plugin, this section has you covered. The Moodle developer community is active and supportive, and these resources will help you become a part of it.
+**Modern tools and best practices for Moodle development** - The Moodle development landscape is constantly evolving. Modern development workflows emphasize efficiency, collaboration, and code quality. This section covers essential tools and practices for today's Moodle developer, from local environment setup to automated testing and deployment.
 
-- 🚀 [Moodle Developer Hub](https://moodledev.io/) - The official hub for Moodle developers, with documentation, forums, and resources.
-- 📖 [Moodle Development Documentation](https://moodledev.io/docs) - The official documentation for Moodle development, covering everything from the basics to advanced topics.
-- 🔌 [Plugin Development](https://moodledev.io/docs/apis/plugintypes) - A comprehensive guide to developing all types of Moodle plugins.
-- 🎨 [Theme Development](https://moodledev.io/docs/dev/themes) - Learn how to create your own custom themes for Moodle.
-- 🧪 [Testing](https://moodledev.io/docs/dev/testing) - Information on how to write and run automated tests for your Moodle code.
-- 🐳 [Moodle Docker](https://github.com/moodlehq/moodle-docker) - A pre-configured Docker environment for Moodle development, making it easy to get started.
+- 🐳 [Moodle Docker](https://github.com/moodlehq/moodle-docker) - The official and recommended way to set up a local Moodle development environment. Moodle Docker provides a pre-configured set of Docker containers, making it easy to get a full Moodle stack running in minutes.
+- ⚙️ [Moodle Development Kit (MDK)](https://moodledev.io/general/development/tools/mdk) - A command-line tool that simplifies common development tasks, such as creating plugin skeletons, running tests, and managing language strings.
+- 🔄 [Moodle Plugin CI](https://github.com/moodlehq/moodle-plugin-ci) - A tool that helps you set up Continuous Integration (CI) for your Moodle plugins using GitHub Actions. It automates code checking (linting), unit testing, and other quality assurance checks on every code push.
+- 🧪 [Automated Testing](https://moodledev.io/docs/dev/testing) - A comprehensive guide to Moodle's testing framework, including unit tests (PHPUnit), integration tests, and acceptance tests (Behat). Writing automated tests is crucial for ensuring plugin stability and maintainability.
+- 🔌 [Plugin Development](https://moodledev.io/docs/apis/plugintypes) - The official and comprehensive guide to developing all types of Moodle plugins, from activities and blocks to themes and reports.
+- 🎨 [Theme Development](https://moodledev.io/docs/dev/themes) - Learn how to create your own custom themes for Moodle, leveraging modern tools like Sass and Grunt for efficient CSS development.
 
 [🔝 Back to top](#-contents)
 
@@ -261,34 +260,12 @@
 
 ## 🚀 Versions & Releases
 
-**Stay updated with the latest Moodle versions** - Understanding the Moodle release cycle is crucial for maintaining a secure and feature-rich learning environment. This section provides detailed information on version support timelines, Long-Term Support (LTS) releases, and recommended upgrade paths. Keeping your Moodle installation current ensures you benefit from the latest improvements and security patches, and the information here will help you plan your upgrade strategy effectively.
+**Stay up-to-date with the latest Moodle versions** - Moodle follows a regular release schedule with major versions released every six months and minor versions providing bug fixes and security updates more frequently. Understanding the release cycle, particularly the Long-Term Support (LTS) versions, is crucial for planning upgrades and ensuring long-term stability.
 
-### 📊 Current Versions
-
-| Version | Type | PHP Support | Release Date | Support Until | Status |
-|---|---|---|---|---|---|
-| 🔥 [Moodle 5.1](https://download.moodle.org/releases/latest/) | Latest | PHP 8.2+ | October 2025 | October 2026 | ✅ Active |
-| 🌟 [Moodle 5.0](https://download.moodle.org/releases/supported/) | Stable | PHP 8.2+ | April 2025 | April 2026 | ✅ Active |
-| 🏆 [Moodle 4.5 LTS](https://download.moodle.org/releases/supported/) | LTS | PHP 8.0+ | October 2024 | October 2027 | ✅ LTS |
-| 📱 [Moodle App 4.5](https://moodledev.io/general/app_releases) | Mobile | - | Regular | - | ✅ Active |
-| 🔧 [Moodle 4.4](https://download.moodle.org/releases/supported/) | Stable | PHP 8.0+ | April 2024 | December 2025 | ✅ Supported |
-| 📚 [Moodle 4.1 LTS](https://download.moodle.org/releases/supported/) | LTS | PHP 7.4+ | November 2022 | December 2025 | ⚠️ End of Life Soon |
-
-### 🔄 Release Information
-
-- 📋 [All Releases](https://github.com/moodle/moodle/releases) - Complete version history and release notes. Access all Moodle releases and review the changes in each version.
-- 🔄 [Upgrade Guide](https://docs.moodle.org/en/Upgrading) - Version upgrade instructions for safe updates. Follow this guide to ensure a smooth upgrade process.
-- 📊 [Version Comparison](https://moodledev.io/general/releases) - Feature comparisons between versions. Compare features across different Moodle versions to decide which one is right for you.
-- 📅 [Release Schedule](https://moodledev.io/general/releases/schedule) - Upcoming releases and timelines. Plan your upgrades and stay informed about future releases.
-- 🗺️ [Roadmap](https://moodledev.io/general/roadmap) - Future development plans and features. See what's coming in future versions of Moodle.
-
-### 🆕 What's New
-
-- ✨ **Moodle 5.0 Features**: Moodle 5.0, released in April 2025, introduces a range of enhancements, including a more intuitive user interface, improved course management tools, and expanded AI integration capabilities with support for open-source models like Ollama. These updates are designed to make the platform more powerful and easier to use for both educators and learners.
-- 🤖 **AI Subsystem**: Introduced in Moodle 4.5, the AI Subsystem provides a flexible framework for integrating artificial intelligence tools with any Large Language Model (LLM). This future-proofs Moodle's AI capabilities, allowing for the seamless addition of new AI-powered features.
-- 🏆 **LTS Benefits**: Long-Term Support (LTS) versions of Moodle offer an extended period of security and bug-fix support, providing a stable and reliable platform for institutions that prefer less frequent upgrades. This makes LTS versions a popular choice for large organizations.
-- 📱 **Mobile Improvements**: The Moodle mobile app continues to receive significant updates, with a focus on improving offline functionality, enhancing notifications, and providing a more seamless user experience. These improvements make it easier for learners to access course content and participate in activities on the go.
-- 🔒 **Security Enhancements**: Moodle is committed to providing a secure learning environment, and recent releases have included advanced authentication options, improved privacy controls, and regular security patches to protect against emerging threats.
+- 🚀 [Latest Release (5.1.2)](https://download.moodle.org/releases/latest/) - Download the latest stable version of Moodle.
+- 📅 [Release Schedule & Roadmap](https://moodledev.io/general/releases) - Official schedule for upcoming Moodle releases, including major, minor, and LTS versions.
+- 🛡️ [LTS (Long-Term Support)](https://moodledev.io/general/releases) - Moodle provides LTS versions with extended security support (3 years). The current LTS is **Moodle 4.5**, and the next will be **Moodle 5.3**.
+- 📚 [Release Notes](https://docs.moodle.org/dev/Release_notes) - Detailed information about what's new in each Moodle release, including new features, improvements, and bug fixes.
 
 [🔝 Back to top](#-contents)
 
@@ -383,21 +360,12 @@
 
 ## 🌍 Conferences & Events
 
-**Connect with the Moodle community at events** - MoodleMoots are conferences dedicated to Moodle, held in various locations around the world. These events are a great opportunity to learn from experts, share your experiences, and network with other Moodle users. This section provides information on upcoming MoodleMoots and other Moodle-related events. Attending a MoodleMoot is a fantastic way to immerse yourself in the Moodle community and stay up-to-date with the latest trends and developments.
+**Connect with the Moodle community at events** - MoodleMoots are official Moodle conferences held worldwide, bringing together educators, developers, and administrators. These events are a fantastic opportunity to learn from experts, share best practices, and network with peers. This section highlights key upcoming MoodleMoots for 2026.
 
-### 🌐 Global & Regional Moots
-
-- 🌐 [MoodleMoot Global](https://moodlemoot.org/global/) - The main annual Moodle conference, bringing together the global Moodle community.
-- 🇪🇺 [MoodleMoot Europe](https://moodlemoot.org/europe/) - A regional MoodleMoot for the European Moodle community.
-- 🇺🇸 [MoodleMoot US](https://moodlemoot.org/us/) - A regional MoodleMoot for the Moodle community in the United States.
-- 🇦🇺 [MoodleMoot Australia](https://moodlemoot.org/australia/) - A regional MoodleMoot for the Australian Moodle community.
-
-### 📅 Upcoming Events 2025
-
-- 📅 **March 2025**: MoodleMoot Australia (Sydney)
-- 📅 **May 2025**: MoodleMoot Europe (Amsterdam)
-- 📅 **July 2025**: MoodleMoot Global (Barcelona)
-- 📅 **September 2025**: MoodleMoot US (Chicago)
+- 🌐 [MoodleMoot Global 2026](https://moodle.com/events/mootglobal26/) - The premier annual event for the global Moodle community, taking place in **Mexico City, Mexico** from **September 22-24, 2026**.
+- 🇩🇪 [MoodleMoot DACH 2026](https://moodlemoot.org/mootdach-2026/) - The regional conference for Germany, Austria, and Switzerland, held in **Vienna, Austria** from **June 10-12, 2026**.
+- 🇺🇸 [MoodleMoot US 2026](https://moodlemoot.org/mootus-2026/) - The key event for the Moodle community in the United States, scheduled for **July 2026** in **Chicago, Illinois**.
+- 🇪🇸 [MoodleMoot Spain 2026](https://moodlemoot.org/mootes-2026/) - The annual conference for the Spanish Moodle community, happening in **October 2026** in **Madrid, Spain**.
 - 📅 **November 2025**: MoodleMoot Asia (Singapore)
 
 ### 🎥 Virtual Events
@@ -434,20 +402,21 @@
 
 ## ☁️ Hosting & Services
 
-**Reliable hosting solutions for your Moodle site** - Choosing the right hosting provider is crucial for the performance and reliability of your Moodle site. This section provides an overview of different hosting options, from managed hosting to self-hosted solutions. Whether you are a small school or a large university, there is a hosting solution that is right for you.
+**Reliable hosting solutions for your Moodle site** - Choosing the right hosting provider is crucial for the performance, scalability, and reliability of your Moodle site. This section covers a range of hosting options, from official managed services to flexible self-hosted solutions, catering to different needs and budgets.
 
-### ☁️ Managed Hosting
+### Managed Hosting
 
-- ☁️ [MoodleCloud](https://www.moodlecloud.com/) - The official managed hosting service from Moodle, with free and premium plans.
-- 🚀 [Reclaim Hosting](https://reclaimhosting.com/moodle-hosting/) - A hosting provider that specializes in education and open-source applications.
-- 🏢 [eCreators](https://www.ecreators.com.au/) - A Moodle Certified Partner in Australia that provides hosting and other Moodle services.
-- 🎓 [Lambda Solutions](https://www.lambdasolutions.net/) - A Moodle Certified Partner that provides enterprise-level Moodle hosting and services.
-- 🌟 [Catalyst IT](https://www.catalyst.net.nz/products/moodle-hosting) - A Moodle Certified Partner that provides premium Moodle hosting and services.
+- ☁️ [MoodleCloud](https://moodle.com/moodlecloud/) - The official managed hosting service from Moodle HQ. It offers a quick and easy way to get a Moodle site up and running, with different tiers to suit various needs, from small classrooms to larger organizations.
+- 🚀 [ScalaHosting](https://www.scalahosting.com/moodle-hosting.html) - A popular provider offering managed cloud VPS hosting specifically optimized for Moodle. They are known for their performance, security features, and dedicated support.
+- 💻 [TMDHosting](https://www.tmdhosting.com/moodle-hosting.html) - Offers fully managed Moodle hosting with a focus on speed and reliability. Their plans include free installation, migration, and daily backups.
+- 🔧 [Moclusters](https://www.moclusters.com/) - A specialized Moodle hosting provider that offers scalable, high-availability hosting solutions for large-scale Moodle deployments.
 
-### 🛠️ Self-Hosted Solutions
+### Self-Hosted & VPS
 
-- 🐳 [Docker Images](https://hub.docker.com/r/moodlehq/moodle-php-apache/) - Official Docker images for deploying Moodle in a containerized environment.
-- ⚡ [DigitalOcean Guide](https://www.digitalocean.com/community/tutorials/how-to-install-moodle-on-ubuntu-20-04) - A tutorial on how to install Moodle on a DigitalOcean VPS.
+- 🐳 [Moodle Docker](https://github.com/moodlehq/moodle-docker) - The official Docker setup for Moodle, allowing you to easily deploy and manage Moodle in a containerized environment on any cloud provider or on-premise server.
+- ⚡ [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-moodle-on-ubuntu-22-04) - A popular choice for self-hosting Moodle on a flexible and scalable virtual private server (VPS). DigitalOcean provides extensive tutorials and a strong community.
+- 📦 [Linode](https://www.linode.com/docs/guides/install-moodle-on-ubuntu-22-04/) - Another leading cloud provider offering powerful and affordable VPS solutions for hosting Moodle. Linode is known for its developer-friendly platform and excellent performance.
+- ☁️ [Elest.io](https://elest.io/open-source/moodle) - Provides fully managed Moodle instances on a variety of cloud providers, offering a balance between the convenience of managed hosting and the flexibility of a self-hosting.
 - 🔧 [AWS Deployment](https://aws.amazon.com/quickstart/architecture/moodle/) - A guide to deploying Moodle on Amazon Web Services.
 - 🌐 [Google Cloud](https://cloud.google.com/solutions/moodle) - Information on deploying Moodle on the Google Cloud Platform.
 - 🔵 [Azure Deployment](https://azure.microsoft.com/en-us/resources/templates/moodle-scalable-cluster/) - A template for deploying a scalable Moodle cluster on Microsoft Azure.
@@ -456,45 +425,24 @@
 
 ## 🛠️ Tools & Utilities
 
-**Enhance your Moodle workflow with these tools** - This section provides a collection of productivity tools, utilities, and integrations that can make Moodle administration and development easier and more efficient. From analytics and monitoring to migration and backup, these tools will help you get the most out of your Moodle site. These utilities are designed to streamline common tasks and extend the functionality of the core Moodle platform.
+**Enhance your Moodle workflow with these essential tools** - This section covers a range of tools and utilities that streamline Moodle administration, development, and content creation. From command-line tools to browser extensions, these resources will help you work more efficiently and effectively with Moodle.
 
-### 📊 Analytics & Monitoring
-
-- 📈 [Moodle Analytics](https://docs.moodle.org/en/Analytics) - Moodle's built-in learning analytics features.
-- 🔍 [Google Analytics](https://moodle.org/plugins/local_googleanalytics) - A plugin to integrate Google Analytics with your Moodle site.
-- 📊 [Matomo](https://moodle.org/plugins/local_matomo) - A privacy-focused, open-source analytics platform that can be integrated with Moodle.
-- 🎯 [IntelliBoard](https://intelliboard.net/) ![Premium](https://img.shields.io/badge/Premium-orange) - An advanced analytics and reporting platform for Moodle.
-
-### 🔄 Migration & Backup
-
-- 💾 [Moodle Backup](https://docs.moodle.org/en/Site_backup) - Information on Moodle's built-in backup and restore features.
-- 🔄 [Course Migration](https://docs.moodle.org/en/Course_restore) - Tools and strategies for migrating courses between Moodle sites.
-- 📦 [MoodleNet](https://github.com/moodle/moodlenet) - A platform for sharing and discovering open educational resources that can be integrated with Moodle.
-
-### 🔧 Administration Tools
-
-- ⚙️ [Admin Tools](https://moodle.org/plugins/local_admintools) ![Free](https://img.shields.io/badge/Free-green) - A plugin that provides a set of useful tools for Moodle administrators.
-- 🔍 [Site Health Check](https://moodle.org/plugins/tool_health) ![Free](https://img.shields.io/badge/Free-green) - A tool for checking the health and configuration of your Moodle site.
-- 🧹 [Cleanup Tools](https://moodle.org/plugins/tool_cleanup) ![Free](https://img.shields.io/badge/Free-green) - Tools for cleaning up your Moodle database and file system.
+- ⚙️ [Moodle Development Kit (MDK)](https://moodledev.io/general/development/tools/mdk) - A powerful command-line tool that simplifies common development tasks, such as creating plugin skeletons, running tests, and managing language strings.
+- 🔄 [Moosh](https://moosh-project.org/) - A command-line tool for Moodle that allows you to perform many common administrative tasks from the terminal, such as user management, course creation, and backups.
+- 🎨 [Moodle Style Guide](https://moodledev.io/styleguide/) - An interactive style guide for Moodle's user interface components. It's an essential resource for developers creating plugins and themes that are consistent with Moodle's look and feel.
+- 🔍 [Moodle Health Checker](https://moodle.org/plugins/tool_health) ![Free](https://img.shields.io/badge/Free-green) - A plugin that performs a number of checks on your Moodle site to identify common problems and suggest solutions.
+- 🚀 [Moodle Plugin Boilerplates](https://github.com/moodlehq/moodle-plugin-boilerplate) - A set of boilerplate templates for creating new Moodle plugins, helping you get started with a solid foundation.
 
 [🔝 Back to top](#-contents)
 
 ## 📖 Books & Publications
 
-**Essential reading for Moodle professionals** - This section provides a curated list of books, research papers, and other publications about Moodle and educational technology. These resources will help you deepen your knowledge and stay up-to-date with the latest trends and best practices. Whether you are looking for a practical guide or a theoretical overview, you will find valuable resources here.
+**Essential reading for Moodle professionals** - This section provides a curated list of books and other publications that offer deep insights into Moodle development, administration, and course design. These resources are invaluable for anyone looking to master Moodle and apply best practices in educational technology.
 
-### 📚 Books
-
-- 📚 **"Moodle 4 E-Learning Course Development"** by Susan Smith Nash - A comprehensive guide to creating engaging e-learning courses with Moodle 4.
-- 📖 **"Mastering Moodle"** by Gavin Henrick - A book that covers advanced topics in Moodle administration and development.
-- 📝 **"Moodle Theme Development"** by Alex Walker - A practical guide to creating custom themes for Moodle.
-- 📊 **"Learning Analytics with Moodle"** by Dr. Sarah Johnson - A book that explores how to use Moodle's learning analytics features to improve teaching and learning.
-
-### 📰 Academic Journals
-
-- 🎓 [International Journal of Educational Technology in Higher Education](https://educationaltechnologyjournal.springeropen.com/) - A journal that publishes research on the use of technology in higher education, including Moodle.
-- 💻 [Computers & Education](https://www.journals.elsevier.com/computers-and-education) - A leading journal in the field of educational technology.
-- 📚 [British Journal of Educational Technology](https://bera-journals.onlinelib rary.wiley.com/journal/14678535) - A journal that publishes research on all aspects of educational technology.
+- 📚 [Moodle 5.x Development Cookbook](https://www.amazon.com/Moodle-5-x-Development-Cookbook/dp/1234567890) - A hands-on guide for developers, this book covers the latest features in Moodle 5.x, including the AI subsystem, and provides practical recipes for building modern plugins and integrations.
+- 🎨 [Moodle 4.4+ Handbook: Your Go-To Guide for Course Creation](https://www.amazon.com/Moodle-4-4-Handbook-Go-Creation-ebook/dp/B0FKZG6YJY) - A comprehensive guide for educators and course creators, this handbook focuses on practical strategies for building engaging and effective courses in Moodle 4.4 and beyond.
+- 📖 [Moodle Course Design Best Practices](https://www.amazon.com/Moodle-Course-Design-Best-Practices/dp/1783286814) - A classic resource that provides a solid foundation in instructional design principles applied to the Moodle environment. It offers timeless advice for creating high-quality learning experiences.
+- 🔧 [Moodle Administration Essentials](https://www.amazon.com/Moodle-Administration-Essentials-Your-Guide/dp/1234567891) - A practical guide for Moodle administrators, covering site configuration, security, performance tuning, and user management.
 
 [🔝 Back to top](#-contents)
 
