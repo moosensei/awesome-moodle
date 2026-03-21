@@ -469,6 +469,7 @@
 - 🔌 [MoodleConnect](https://moodle.org/plugins/local_moodleconnect) ![Free](https://img.shields.io/badge/Free-green) - Automate your Moodle workflows by connecting it with external services and applications. Enables no-code automation for common Moodle tasks such as user provisioning, course enrollment, and notifications.
 - 🩺 [Course Life Cycle](https://moodle.org/plugins/tool_courselifecycle) ![Free](https://img.shields.io/badge/Free-green) - Manages the full lifecycle of Moodle courses from creation to archiving and deletion. Helps administrators keep their Moodle site clean and organized by automating course management workflows.
 - 📊 [Moodle Benchmark](https://moodle.org/plugins/tool_benchmark) ![Free](https://img.shields.io/badge/Free-green) - A performance benchmarking tool for Moodle administrators. Measures server response times and database query performance to help identify and resolve bottlenecks.
+- 🐍 [python-moodle](https://github.com/erseco/python-moodle) - A Python CLI and library for Moodle automation, including course management and content workflows through web sessions and CAS/SSO.
 
 [🔝 Back to top](#-contents)
 
