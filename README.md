@@ -90,9 +90,10 @@
 - ⬇️ [Downloads](https://download.moodle.org/releases/latest/) - Latest official Moodle releases and previous versions. Download the Moodle software directly from the official source.
 - 🗺️ [Roadmap](https://moodledev.io/general/roadmap) - Future development plans and upcoming features. Stay informed about the direction of Moodle development.
 - 📊 [Statistics](https://stats.moodle.org/) - Global Moodle usage statistics and adoption metrics. See how Moodle is used worldwide across educational institutions.
-- 🤖 [AI Tools Documentation](https://docs.moodle.org/en/AI_tools) - Official documentation for Moodle's built-in AI subsystem, introduced in Moodle 4.5 and significantly expanded in 5.0 and 5.1. Covers placements, actions, and provider configuration for OpenAI, Azure AI, Ollama, and DeepSeek.
+- 🤖 [AI Tools Documentation](https://docs.moodle.org/en/AI_tools) - Official documentation for Moodle's built-in AI subsystem, introduced in Moodle 4.5 and significantly expanded in 5.0, 5.1, and 5.2. Covers placements, actions, and provider configuration for OpenAI, Azure AI, Ollama, DeepSeek, Gemini, and Amazon Bedrock.
 - 🏢 [Moodle Workplace](https://moodle.com/solutions/workplace/) - Moodle's dedicated corporate learning solution built on top of Moodle LMS, tailored for employee training, compliance, and professional development in enterprise environments.
 - 🌐 [Moodle Events](https://moodle.com/events/) - Official calendar of global MoodleMoot conferences and virtual events, including upcoming MoodleMoots for Canada, Philippines, and the Global 2026 event in Mexico City.
+- 🛒 [Moodle Marketplace](https://moodle.org/news) - The upcoming official Moodle Marketplace (launching mid-2026), replacing the legacy Plugins Directory to offer both free and premium plugins in a unified ecosystem.
 
 [🔝 Back to top](#-contents)
 
@@ -117,7 +118,10 @@
 - 💻 [Virtual Programming Lab](https://moodle.org/plugins/mod_vpl) ![Free](https://img.shields.io/badge/Free-green) - Programming assignment management with code execution. Support computer science education with automated code evaluation.
 - 📅 [Booking](https://moodle.org/plugins/mod_booking) ![Free](https://img.shields.io/badge/Free-green) - Manage participants and subscriptions for events. Handle course registrations, event bookings, and participant management.
 - 🛒 [Shopping Cart](https://moodle.org/plugins/local_shopping_cart) ![Free](https://img.shields.io/badge/Free-green) - Complete e-commerce system for Moodle. Monetize courses and manage payments directly within Moodle.
-- 🎮 [Gamoteca](https://moodle.org/plugins/mod_gamoteca) ![Premium](https://img.shields.io/badge/Premium-orange) - Multi-player creator platform for game-based learning. Create and share educational games with students.
+- 🎮 [Gamoteca](https://moodle.org/plugins/mod_gamoteca) ![Free](https://img.shields.io/badge/Free-green) - Create collaborative, game-based learning experiences. Design multiplayer learning games and simulations.
+- 🗺️ [Learning Map](https://moodle.org/plugins/mod_learningmap) ![Free](https://img.shields.io/badge/Free-green) - A learning map provides an easy way of improving the visualization of activities and their completion state in a Moodle course. Activities are represented as places (i.e. dots) on the map.
+- 🛤️ [Programs (MuTMS)](https://moodle.org/plugins/tool_muprog) ![Free](https://img.shields.io/badge/Free-green) - Structured learning programs — define learning paths, automate enrolments, and track completion across courses. Designed for organisations managing complex training or educational offerings at scale.
+- 🧭 [Adele Learning Path](https://wunderbyte.at/en/2025/10/01/adele-learning-path/) ![Free](https://img.shields.io/badge/Free-green) - New Moodle Plugin "Adele" helps educators guide learners with ease. Map out entire learning journeys by linking courses and activities together.
 - 📚 [Wunderbyte Table](https://moodle.org/plugins/local_wunderbyte_table) ![Free](https://img.shields.io/badge/Free-green) - Enhanced table library with templates. Create professional data tables and reports.
 - 📥 [Download Center](https://moodle.org/plugins/local_downloadcenter) ![Free](https://img.shields.io/badge/Free-green) - Centralized download management for course materials. Organize and manage file downloads for students.
 - 🔗 [Child Course](https://moodle.org/plugins/mod_childcourse) ![Free](https://img.shields.io/badge/Free-green) - Adds a "Linked Course" activity that enables automatic enrollment, links groups and roles, and maintains incremental synchronization between a parent and child course. Ideal for modular course structures.
@@ -136,7 +140,7 @@
 - 🎨 [Edwiser Page Builder](https://edwiser.org/page-builder/) ![Premium](https://img.shields.io/badge/Premium-orange) - Drag-and-drop page builder with 139+ blocks. Create custom course pages without coding.
 - 🌊 [Flexible Sections](https://moodle.org/plugins/format_flexsections) ![Free](https://img.shields.io/badge/Free-green) - Flexible course structure for complex organizations. Create nested sections and hierarchical course layouts.
 - 📋 [Board Format](https://moodle.org/plugins/format_board) ![Free](https://img.shields.io/badge/Free-green) - Kanban-style course format for project-based learning. Organize course activities in a Kanban board layout.
-- 🗂️ [Subsections](https://docs.moodle.org/en/Course_sections) ![Free](https://img.shields.io/badge/Free-green) - Native Moodle 4.5+ feature allowing nested subsections within course sections. Significantly improves the organization of long or complex courses without requiring additional plugins.
+- 🗂️ [Subsections](https://docs.moodle.org/en/Course_sections) ![Free](https://img.shields.io/badge/Free-green) - Native Moodle 4.5+ feature allowing nested subsections within course sections. In Moodle 5.2, subsection navigation was updated to use anchor links instead of dedicated pages, simplifying the visual design and making content structure clearer.
 
 ### 📊 Analytics & Reports
 
@@ -160,7 +164,7 @@
 - 🛡️ [reCAPTCHA](https://moodle.org/plugins/auth_recaptcha) ![Free](https://img.shields.io/badge/Free-green) - Enhanced security against automated attacks. Protect login pages from bots and brute force attacks.
 - 🔐 [OAuth2](https://moodle.org/plugins/auth_oauth2) ![Free](https://img.shields.io/badge/Free-green) - OAuth2 authentication for social login integration. Allow students to login with Google, Facebook, or other providers.
 - 🏢 [LDAP](https://docs.moodle.org/en/LDAP_authentication) ![Free](https://img.shields.io/badge/Free-green) - LDAP/Active Directory integration for enterprise user management. Sync users from corporate directories.
-- 🔒 [Two-Factor Authentication](https://moodle.org/plugins/auth_totp) ![Free](https://img.shields.io/badge/Free-green) - Enhanced login security with two-factor authentication. Require additional verification for account access.
+- 🔒 [Two-Factor Authentication](https://moodle.org/plugins/auth_totp) ![Free](https://img.shields.io/badge/Free-green) - Enhanced login security with two-factor authentication. Require additional verification for account access. In Moodle 5.2, the MFA experience was visually refreshed for consistency across Email, SMS, Security Key, and Authenticator App methods.
 - 🛡️ [Security Report](https://moodle.org/plugins/report_security) ![Free](https://img.shields.io/badge/Free-green) - Security audit tool for identifying vulnerabilities. Check your Moodle installation for security issues.
 - ✏️ [Cursive](https://moodle.org/plugins/plagiarism_cursive) ![Premium](https://img.shields.io/badge/Premium-orange) - Authorship verification and written integrity checking. Detect AI-generated content and verify student work authenticity.
 - 🔒 [Quilgo Proctoring](https://moodle.org/plugins/quizaccess_quilgo) ![Premium](https://img.shields.io/badge/Premium-orange) - AI-powered online proctoring solution for Moodle quizzes. Uses webcam monitoring, screen recording, and behavioral analysis to ensure academic integrity during remote assessments.
@@ -177,11 +181,15 @@
 - ❓ [Generative AI Question Bank](https://moodle.org/plugins/qbank_genai) ![Free](https://img.shields.io/badge/Free-green) - An innovative tool that leverages generative AI to automatically create quiz questions and entire question banks from course content, such as documents or text passages, saving educators significant time.
 - 📝 [Cursive](https://moodle.org/plugins/plagiarism_cursive) ![Premium](https://img.shields.io/badge/Premium-orange) - An advanced authorship verification tool that uses AI to analyze writing style and detect potential plagiarism or the use of AI-generated text, ensuring academic integrity.
 - 🎓 [IntelliBoard](https://intelliboard.net/) ![Premium](https://img.shields.io/badge/Premium-orange) - A comprehensive learning analytics platform that uses AI to provide deep insights into student engagement, performance, and learning patterns. It offers predictive analytics to identify at-risk students and inform instructional strategies.
-- 🤖 [OpenAI Compatible API Provider](https://moodle.org/plugins/aiprovider_openaicompatible) ![Free](https://img.shields.io/badge/Free-green) - Integrates Moodle's native AI subsystem with any AI service following the OpenAI-compatible API schema, including local models via Ollama, Groq, and other providers. Released December 2025, greatly expanding the range of supported AI backends.
+- 🤖 [OpenAI Compatible API Provider](https://moodle.org/plugins/aiprovider_openaicompatible) ![Free](https://img.shields.io/badge/Free-green) - Integrates Moodle's native AI subsystem with any AI service following the OpenAI-compatible API schema, including local models via Ollama, Groq, and other providers.
 - 🧠 [DeepSeek AI Provider](https://moodle.org/plugins/aiprovider_deepseek) ![Free](https://img.shields.io/badge/Free-green) - Official Moodle core AI provider plugin for DeepSeek's large language models, added in Moodle 5.1. Enables cost-effective AI-powered features using DeepSeek's open-source models as an alternative to commercial providers.
+- 🤖 [Gemini API Provider](https://moodle.org/plugins/aiprovider_gemini) ![Free](https://img.shields.io/badge/Free-green) - Integrated into Moodle 5.2 core, this provider enables the seamless use of Google's Gemini AI capabilities within Moodle, supporting text generation, summarisation, explanation, and image creation.
+- ☁️ [Amazon Bedrock API Provider](https://moodle.org/plugins/aiprovider_bedrock) ![Free](https://img.shields.io/badge/Free-green) - Integrated into Moodle 5.2 core, this provider enables the use of Amazon's AI platform within Moodle, allowing access to multiple foundation models (Claude, Titan, Llama) while keeping data within configured AWS regions.
 - ✍️ [Tiny AI Prompt Generator](https://moodle.org/plugins/tiny_aiprompt) ![Free](https://img.shields.io/badge/Free-green) - A TinyMCE editor plugin that helps teachers build structured, pedagogically sound AI prompts directly within the Moodle text editor. Simplifies the process of leveraging AI for content creation without leaving the editor.
 - 🎓 [Course Creator AI](https://moodle.org/plugins/local_coursegen) ![Free](https://img.shields.io/badge/Free-green) - Empowers Moodle teachers to generate complete courses automatically using artificial intelligence. Released January 2026, it creates course structures, activities, and content from a simple topic description.
 - 🤖 [SmartEdu AI Block](https://moodle.org/plugins/block_smartedu) ![Free](https://img.shields.io/badge/Free-green) - An intelligent learning block that integrates with Gemini, ChatGPT, and local Ollama models to provide AI-powered assistance to students directly within their Moodle courses.
+- ⚖️ [AI Assessment Scale](https://moodle.org/plugins/local_assignmentnotice) ![Free](https://img.shields.io/badge/Free-green) - Gives teachers and course creators an easy, consistent way to label assignments with information about the AI Assessment Scale, guiding the appropriate and ethical use of generative AI in assessment design.
+- 📝 [AI Grade](https://moodle.org/plugins/local_aigrade) ![Free](https://img.shields.io/badge/Free-green) - A powerful local plugin that seamlessly integrates with Moodle's assignment module to provide AI-assisted grading capabilities, assisting teachers in the grading and feedback process.
 
 ### 📱 Mobile & Accessibility
 
@@ -192,7 +200,7 @@
 - 🗣️ [ReadSpeaker](https://moodle.org/plugins/filter_readspeaker) ![Premium](https://img.shields.io/badge/Premium-orange) - Text-to-speech integration for audio content delivery. Provide an audio version of your course materials.
 - 🎨 [Brickfield Accessibility Toolkit](https://moodle.org/plugins/local_brickfield) ![Premium](https://img.shields.io/badge/Premium-orange) - Comprehensive accessibility analysis and remediation. Find and fix accessibility issues in your courses.
 - 📖 [Ally](https://moodle.org/plugins/tool_ally) ![Premium](https://img.shields.io/badge/Premium-orange) - Automatic accessibility checker and alternative format generator. Improve accessibility and provide alternative formats for course content.
-- 📱 [Moodle App](https://moodle.com/app/) ![Free](https://img.shields.io/badge/Free-green) - The official Moodle mobile app for iOS and Android, now accredited to WCAG 2.2 Level AA conformance (April 2025). Provides offline access, push notifications, and a native mobile experience for learners on the go.
+- 📱 [Moodle App](https://moodle.com/app/) ![Free](https://img.shields.io/badge/Free-green) - The official Moodle mobile app for iOS and Android, now accredited to WCAG 2.2 Level AA conformance (April 2025). Provides offline access, push notifications, and a native mobile experience for learners on the go. In Moodle 5.2, administrators gained the ability to add custom user menu items to the mobile app profile.
 
 ### 🎮 Gamification
 
@@ -209,13 +217,14 @@
 
 **Facilitate communication and collaboration among learners** - These plugins provide various channels for students and teachers to interact, share ideas, and work together. Effective communication is key to a successful online learning experience, and these tools provide the means to achieve it.
 
-- 💬 [Forum](https://docs.moodle.org/en/Forum_activity) ![Free](https://img.shields.io/badge/Free-green) - Asynchronous discussions and announcements. The classic tool for online course communication.
+- 💬 [Forum](https://docs.moodle.org/en/Forum_activity) ![Free](https://img.shields.io/badge/Free-green) - Asynchronous discussions and announcements. The classic tool for online course communication. In Moodle 5.2, Q&A forums support real-time visibility of responses, and new inactivity-based locking options were added.
 - 💬 [Chat](https://docs.moodle.org/en/Chat_activity) ![Free](https://img.shields.io/badge/Free-green) - Real-time text-based conversations. Enable synchronous communication between students and teachers.
 - 📝 [Journal](https://moodle.org/plugins/mod_journal) ![Free](https://img.shields.io/badge/Free-green) - Private reflective journals for students. Encourage self-reflection and private communication with the teacher.
 - 📧 [Quickmail](https://moodle.org/plugins/block_quickmail) ![Free](https://img.shields.io/badge/Free-green) - Send emails to course participants. A convenient way to send announcements and reminders.
 - 📹 [Zoom Integration](https://moodle.org/plugins/mod_zoom) ![Free](https://img.shields.io/badge/Free-green) - Schedule and manage Zoom meetings from within Moodle. Seamlessly integrate your web conferencing.
 - 🎬 [STREAM Video Platform](https://moodle.org/plugins/mod_stream) ![Premium](https://img.shields.io/badge/Premium-orange) - An all-in-one video platform activity for Moodle that enables video hosting, streaming, and management directly within courses. Supports interactive video features and detailed viewing analytics.
 - 📢 [Information Center](https://moodle.org/plugins/block_informationcenter) ![Free](https://img.shields.io/badge/Free-green) - A block that delivers targeted announcements and notifications with role-based visibility controls and easy external content management. Ideal for site-wide communications to specific user groups.
+- 📱 [SMS Gateways](https://docs.moodle.org/en/SMS_gateways) ![Free](https://img.shields.io/badge/Free-green) - Allows different providers (e.g., AWS SNS) to send messages via SMS. Administrators can configure SMS notifications for crucial activities, such as assignment deadlines.
 
 [🔝 Back to top](#-contents)
 
@@ -229,15 +238,17 @@
 - 🎓 [Lumo](https://elearning.3rdwavemedia.com/themes/lumo-moodle-theme/) ![Premium](https://img.shields.io/badge/Premium-orange) - A premium theme for Moodle 5.x inspired by the clean interfaces of platforms like Coursera and edX. It provides a professional, modern design out-of-the-box, perfect for higher education and corporate training.
 - 🏫 [Lambda](https://themeforest.net/item/lambda-premium-moodle-theme/19307139) ![Premium](https://img.shields.io/badge/Premium-orange) - The #1 best-selling Moodle theme on ThemeForest, Lambda is known for its versatility and extensive feature set. It offers multiple layouts and a high degree of customization.
 - 🌟 [Edutor](https://elearning.3rdwavemedia.com/themes/edutor-moodle-theme/) ![Premium](https://img.shields.io/badge/Premium-orange) - A modern premium theme built on Bootstrap 5, offering six pre-designed color schemes and a high level of customization to match your brand identity. It's a cost-effective way to achieve a professional look.
+- 🎓 [Edly](https://themeforest.net/item/edly-moodle-lms-education-theme/42771060) ![Premium](https://img.shields.io/badge/Premium-orange) - A modern, responsive Moodle 5 theme designed specifically for Online Coaching, Education Courses, Training Centers, Universities, and Schools. Focuses on course discovery and streamlined enrollment routes.
 
 ### Free Themes
 
 - 🚀 [Boost](https://docs.moodle.org/en/Themes) ![Free](https://img.shields.io/badge/Free-green) - The official core theme for Moodle. With Moodle 5.x, it's built on Bootstrap 5, offering a solid foundation of performance, accessibility, and modern design. It's a reliable, no-frills choice for any Moodle site.
 - 📱 [Moove](https://moodle.org/plugins/theme_moove) ![Free](https://img.shields.io/badge/Free-green) - A popular and long-standing free theme that provides a clean, modern, and streamlined user experience. It's highly regarded in the community for its user-friendly design and is actively maintained for Moodle 5.x.
 - 🎨 [Adaptable](https://moodle.org/plugins/theme_adaptable) ![Free](https://img.shields.io/badge/Free-green) - One of the most popular and highly configurable free themes available. Adaptable gives administrators extensive control over the look and feel of their site, from layouts and colors to fonts and block regions.
-- 🌟 [Boost Union](https://moodle.org/plugins/theme_boost_union) ![Free](https://img.shields.io/badge/Free-green) - A community-favorite theme that extends the core Boost theme with a wealth of additional customization options. It allows for a more professional and branded look without the need for custom coding. Used on over 7,600 active Moodle sites.
+- 🌟 [Boost Union](https://moodle.org/plugins/theme_boost_union) ![Free](https://img.shields.io/badge/Free-green) - A community-favorite theme that extends the core Boost theme with a wealth of additional customization options. It allows for a more professional and branded look without the need for custom coding. Used on over 7,600 active Moodle sites and updated for Moodle 5.1+.
 - 🎨 [Boost Magnific](https://moodle.org/plugins/theme_boost_magnific) ![Free](https://img.shields.io/badge/Free-green) - A modern, visually rich free theme for Moodle 5.x that provides an enhanced visual experience with improved typography, color schemes, and layout options, while maintaining full compatibility with Moodle's core Boost framework.
 - 🏢 [Degrade Theme](https://moodle.org/plugins/theme_degrade) ![Free](https://img.shields.io/badge/Free-green) - A clean, modern free theme with a focus on readability and a professional appearance. Actively maintained and compatible with the latest Moodle 5.x releases.
+- 🌰 [Almondb](https://moodle.org/plugins/theme_almondb) ![Free](https://img.shields.io/badge/Free-green) - A free, highly rated multi-purpose theme built on the Boost core. It offers pre-made blocks, flexible page layouts, and custom UI elements, making it quick and easy to set up.
 
 [🔝 Back to top](#-contents)
 
@@ -255,6 +266,9 @@
 - 🔗 [Routing Engine Documentation](https://moodledev.io/general/releases/5.1) - Documentation for Moodle 5.1's new routing engine that enables cleaner URLs and improved request handling. A key architectural change for modern Moodle development.
 - 🧩 [Moodle Plugin Boilerplate](https://github.com/moodlehq/moodle-plugin-boilerplate) - Official GitHub repository providing starter templates for all Moodle plugin types. Saves significant setup time and ensures new plugins follow current coding standards from day one.
 - 🔧 [Moosh](https://moosh-online.com/) - A powerful command-line shell tool for Moodle that allows administrators and developers to perform common tasks from the terminal, such as user management, course creation, and database operations.
+- ⚛️ [Moodle Design System (MDS)](https://github.com/moodlehq/design-system) - The Moodle HQ design system based on React, integrated into Moodle 5.2 core. It includes design assets, guidelines, UI components, and code standards to help teams build cohesive and accessible interfaces.
+- 📦 [Composer Installation](https://moodledev.io/general/development/tools/composer) - Moodle 5.2 added full support for installing Moodle via Composer, improving the ease of long-term maintenance and management of third-party libraries.
+- 📊 [OpenTelemetry Integration](https://github.com/moodlehq/moodle-package-otel) - Moodle 5.2 introduced built-in support for OpenTelemetry (OTel), enabling administrators and developers to trace, monitor, and understand the performance and behaviour of a Moodle site in real time.
 
 [🔝 Back to top](#-contents)
 
@@ -289,11 +303,11 @@
 
 - 🚀 [Latest Release (5.2)](https://download.moodle.org/releases/latest/) - Download the latest stable version of Moodle.
 - 📅 [Release Schedule & Roadmap](https://moodledev.io/general/releases) - Official schedule for upcoming Moodle releases, including major, minor, and LTS versions.
-- 🛡️ [LTS (Long-Term Support)](https://moodledev.io/general/releases) - Moodle provides LTS versions with extended security support (3 years). The current LTS is **Moodle 4.5**, and the next will be **Moodle 5.3**.
+- 🛡️ [LTS (Long-Term Support)](https://moodledev.io/general/releases) - Moodle provides LTS versions with extended security support (3 years). The current LTS is **Moodle 4.5**, and the next will be **Moodle 5.3** (expected October 2026).
 - 📚 [Release Notes](https://docs.moodle.org/dev/Release_notes) - Detailed information about what's new in each Moodle release, including new features, improvements, and bug fixes.
 - 🆕 [What's New in Moodle 5.0](https://moodledev.io/general/releases/5.0) - Moodle 5.0 (April 2025) introduced the expanded AI subsystem with Ollama support, SMS notifications, shared question banks, Bootstrap 5, and major accessibility improvements including WCAG 2.2 compliance.
 - 🆕 [What's New in Moodle 5.1](https://moodledev.io/general/releases/5.1) - Moodle 5.1 (October 2025) introduced the new `/public` directory structure, a routing engine for cleaner URLs, the DeepSeek AI provider, a redesigned activity chooser, and a new centralized course overview page.
-- 🆕 [What's New in Moodle 5.2](https://moodledev.io/general/releases/5.2) - Moodle 5.2 (April 2026) continues the modernization of the platform with further AI enhancements, performance improvements, and developer-facing API updates.
+- 🆕 [What's New in Moodle 5.2](https://moodledev.io/general/releases/5.2) - Moodle 5.2 (April 2026) continues the modernization of the platform with Gemini AI and Amazon Bedrock integrated into core, multiple markers for assignments, a refreshed dashboard and login experience, React foundations in core, Moodle Design System integration, Composer installation support, and OpenTelemetry tracing support.
 
 [🔝 Back to top](#-contents)
 
@@ -373,6 +387,7 @@
 
 - 💼 [LinkedIn Group](https://www.linkedin.com/groups/78987/) - A professional networking group for Moodle users, with over 50,000 members.
 - 🐦 [Twitter Community](https://twitter.com/moodle) - Follow the official Moodle Twitter account for the latest news and updates.
+- 🐘 [Mastodon](https://mastodon.online/@moodle) - The official Moodle account on the federated social network Mastodon.
 - 💬 [Discord Server](https://discord.gg/moodle) - A real-time chat community for Moodle users.
 - 📘 [Facebook Group](https://www.facebook.com/groups/moodle) - A Facebook group for Moodle users to connect and share.
 - 🎮 [Reddit Community](https://www.reddit.com/r/moodle/) - A subreddit for Moodle discussions and support.
@@ -387,19 +402,33 @@
 - 🇪🇸 [Moodle España](https://moodle.es/) - The Moodle community in Spain.
 - 🇧🇷 [Moodle Brasil](https://moodle.org.br/) - The Moodle community in Brazil.
 
+### 📰 Newsletters & Updates
+
+- 📧 [Moodle Mentor](https://moodle.com/news/moodle-mentor-april-2026/) - A monthly advice column for creative course and learning design, answering real questions from the Moodle community.
+- 📰 [Edit Mode](https://moodle.com/news/) - Moodle's monthly product-focused newsletter.
+
+*Note: MoodleNet development by HQ ceased, and moodle.net was closed on April 24, 2026. The Fund Moodle site was also decommissioned in late 2025 as community contributions evolved toward collaborative initiatives.*
+
 [🔝 Back to top](#-contents)
 
 ## 🌍 Conferences & Events
 
 **Connect with the Moodle community at events** - MoodleMoots are official Moodle conferences held worldwide, bringing together educators, developers, and administrators. These events are a fantastic opportunity to learn from experts, share best practices, and network with peers. This section highlights key upcoming MoodleMoots for 2026.
 
-- 🌐 [MoodleMoot Global 2026](https://moodle.com/events/mootglobal26/) - The premier annual event for the global Moodle community, taking place in **Mexico City, Mexico** from **September 22-24, 2026**.
-- 🇨🇦 [MoodleMoot Canada 2026](https://www.catalyst-ca.net/moodle-moot-event-canada) - MoodleMoot Canada 2026 takes place on **May 27-28, 2026** at Université du Québec à Montréal (UQAM). A key gathering for the Canadian Moodle community.
-- 🇵🇭 [MoodleMoot Philippines 2026](https://moodle.com/events/) - Hosted by Nephila Web Technology Inc., scheduled for **June 18-19, 2026**. A growing regional event for the Southeast Asian Moodle community.
-- 🇩🇪 [MoodleMoot DACH 2026](https://moodlemoot.org/mootdach-2026/) - The regional conference for Germany, Austria, and Switzerland, held in **Vienna, Austria** from **June 10-12, 2026**.
-- 🇺🇸 [MoodleMoot US 2026](https://moodlemoot.org/mootus-2026/) - The key event for the Moodle community in the United States, scheduled for **July 2026** in **Chicago, Illinois**.
-- 🇪🇸 [MoodleMoot Spain 2026](https://moodlemoot.org/mootes-2026/) - The annual conference for the Spanish Moodle community, happening in **October 2026** in **Madrid, Spain**.
-- 📅 **November 2025**: MoodleMoot Asia (Singapore)
+- 🌐 [MIX 2026 (Moodle Ideas Exchange)](https://moodle.com/moodle-ideas-exchange/) - Moodle's new flagship annual event, formerly known as MoodleMoot Global. MIX 2026 will take place in **Istanbul, Turkey**, bringing together global thinkers and doers from education and business.
+- 🇨🇱 [MoodleMoot Chile 2026](https://moodle.com/events/) - Hosted by Mindfree in **Santiago de Chile** on **May 26-27, 2026**.
+- 🇨🇦 [MoodleMoot Canada 2026](https://www.catalyst-ca.net/moodle-moot-event-canada) - Taking place in **Montreal, Québec** on **May 27-28, 2026**, hosted by Catalyst IT Canada.
+- 🇭🇷 [MoodleMoot Hrvatska 2026](https://moodle.com/events/) - Hosted by SRCE in **Zagreb, Croatia** on **June 11-12, 2026**.
+- 🇪🇨 [MoodleMoot Ecuador 2026](https://moodle.com/events/) - Hosted by Exducere Online / PUCE in **Quito, Ecuador** on **June 11-12, 2026**.
+- 🇨🇷 [MoodleMoot Costa Rica 2026](https://moodle.com/events/) - Hosted by Emprove Costa Rica in **San Pablo, Costa Rica** on **June 17-18, 2026**.
+- 🇵🇭 [MoodleMoot Philippines 2026](https://moodle.com/events/) - Hosted by Nephila Web Technology Inc. in **Metro Manila** on **June 18-19, 2026**.
+- 🇩🇪 [MoodleMoot DACH 2026](https://moodlemootdach.org/) - The regional conference for Germany, Austria, and Switzerland, held at ETH Zurich in **Zurich, Switzerland** from **June 30 - July 3, 2026**.
+- 🇸🇻 [MoodleMoot El Salvador 2026](https://moodle.com/events/) - Hosted by Corporate Learning El Salvador on **July 9, 2026**.
+- 🇫🇷 [MoodleMoot Francophone 2026](https://moodle.com/events/) - Hosted by Université de Tours in **Tours, France** from **July 8-10, 2026**.
+- 🇧🇩 [MoodleMoot Bangladesh 2026](https://moodle.com/events/) - Hosted by Brain Station 23 in **Dhaka, Bangladesh** on **July 11, 2026**.
+- 🇧🇷 [MoodleMoot Brasil 2026](https://moodle.com/events/) - Hosted by FEA-USP, Kaptiva, and Conecti.me in **São Paulo, Brazil** on **September 10-11, 2026**.
+- 🇨🇿 [MoodleMoot Czech Republic 2026](https://moodle.com/events/) - Hosted by PragoData Consulting in **Ostrava, Czech Republic** on **September 15-16, 2026**.
+- 🇩🇰 [MoodleMoot Nordic 2026](https://moodle.com/events/) - Hosted by Efaktor, Netsapiensis, Sparkfore, Vextur, and Moxis in **Copenhagen, Denmark** from **September 30 - October 1, 2026**.
 
 ### 🎥 Virtual Events
 
@@ -482,7 +511,7 @@
 - 📚 [Moodle 5.x Development Cookbook](https://www.amazon.com/Moodle-5-x-Development-Cookbook/dp/1234567890) - A hands-on guide for developers, this book covers the latest features in Moodle 5.x, including the AI subsystem, and provides practical recipes for building modern plugins and integrations.
 - 🎨 [Moodle 4.4+ Handbook: Your Go-To Guide for Course Creation](https://www.amazon.com/Moodle-4-4-Handbook-Go-Creation-ebook/dp/B0FKZG6YJY) - A comprehensive guide for educators and course creators, this handbook focuses on practical strategies for building engaging and effective courses in Moodle 4.4 and beyond.
 - 📖 [Moodle Course Design Best Practices](https://www.amazon.com/Moodle-Course-Design-Best-Practices/dp/1783286814) - A classic resource that provides a solid foundation in instructional design principles applied to the Moodle environment. It offers timeless advice for creating high-quality learning experiences.
-- 🔧 [Moodle Administration Essentials](https://www.amazon.com/Moodle-Administration-Essentials-Your-Guide/dp/1234567891) - A practical guide for Moodle administrators, covering site configuration, security, performance tuning, and user management.
+- 🔧 [Moodle 4 Administration: An administrator's guide](https://www.amazon.com/Moodle-Administration-administrators-configuring-customizing-ebook/dp/B0B1DSWWZY) - A practical guide filled with over 120 infographics to help you administer Moodle for large organizations and small enterprises, covering configuration, security, and customization.
 
 [🔝 Back to top](#-contents)
 
@@ -550,6 +579,7 @@
 
 - 📊 **EdTech Awards** - Moodle and its partners are frequently recognized in various EdTech awards for their innovative solutions.
 - 🏢 **Corporate Training Awards** - Awards that recognize excellence in workplace learning, where Moodle is a popular platform.
+- 🌍 **B Corp Certification** - Moodle was recertified as a B Corporation in July 2025, expanding its certification in the US and India, reinforcing its commitment to using business as a force for good.
 
 [🔝 Back to top](#-contents)
 
