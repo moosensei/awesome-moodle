@@ -148,6 +148,7 @@
 
 - 📈 [Configurable Reports](https://moodle.org/plugins/block_configurable_reports) ![Free](https://img.shields.io/badge/Free-green) - Custom reporting tool for creating tailored reports. Build reports without technical knowledge.
 - 🎯 [Learning Analytics](https://moodle.org/plugins/local_learning_analytics) ![Free](https://img.shields.io/badge/Free-green) - Student progress insights and engagement metrics. Visualize learning patterns and identify struggling students.
+- ⚠️ [Solin Early Warning](https://moodle.org/plugins/block_atrisk) ![Free](https://img.shields.io/badge/Free-green) - Shows teachers, inside the course, which students may be falling behind and why. Transparent, configurable signals over data Moodle already has, with no ML backend and no notification emails.
 - 📊 [Intelligence](https://intelliboard.net/) ![Premium](https://img.shields.io/badge/Premium-orange) - Advanced analytics platform for comprehensive learning insights. Enterprise-grade analytics for large-scale implementations.
 - 📈 [Progress Bar](https://moodle.org/plugins/block_progress) ![Free](https://img.shields.io/badge/Free-green) - Visual progress tracking for course completion. Show students their progress toward course goals.
 - 🎓 [Completion Progress](https://moodle.org/plugins/block_completion_progress) ![Free](https://img.shields.io/badge/Free-green) - Course completion visualization. Display completion status for all course activities.
