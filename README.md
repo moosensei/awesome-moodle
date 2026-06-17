@@ -127,6 +127,8 @@
 - 🔗 [Child Course](https://moodle.org/plugins/mod_childcourse) ![Free](https://img.shields.io/badge/Free-green) - Adds a "Linked Course" activity that enables automatic enrollment, links groups and roles, and maintains incremental synchronization between a parent and child course. Ideal for modular course structures.
 - 🏅 [Navigatr](https://moodle.org/plugins/local_navigatr) ![Free](https://img.shields.io/badge/Free-green) - Automatically issues verifiable digital badges and certificates when learners complete Moodle courses, seamlessly connecting course completion to recognized credentials.
 - 🔄 [Drip Release](https://moodle.org/plugins/tool_driprelease) ![Free](https://img.shields.io/badge/Free-green) - Schedules the sequential release of course activities over time, allowing instructors to drip-feed content to students at a controlled pace and improve engagement throughout a course.
+- 👥 [PlayerGroup](https://moodle.org/plugins/mod_playergroup) ![Free](https://img.shields.io/badge/Free-green) - Activity module that lets students autonomously form groups and invite peers, with configurable privacy levels, automatic Moodle grouping, and gradebook integration.
+- ⏰ [Late Penalty](https://moodle.org/plugins/local_latepenalty) ![Free](https://img.shields.io/badge/Free-green) - Automatically applies progressive grade deductions to any graded activity (Assignments, Quizzes, SCORM, Forums, and more) when a student submits after the deadline, with configurable daily rates and per-user override support.
 
 ### 🎨 Course Design
 
@@ -155,6 +157,8 @@
 - 🔍 [Usage Statistics](https://moodle.org/plugins/report_usage) ![Free](https://img.shields.io/badge/Free-green) - Site usage analytics and activity reports. Monitor site usage patterns and user engagement.
 - 📊 [Web Analytics](https://moodle.org/plugins/tool_webanalytics) ![Free](https://img.shields.io/badge/Free-green) - Integrates Moodle with external web analytics platforms including Matomo, Google Tag Manager, and Google Analytics. Provides a centralized way to track site-wide user behavior and course engagement.
 - 🔬 [Zoola Analytics](https://moodle.org/plugins/local_zoola) ![Premium](https://img.shields.io/badge/Premium-orange) - A powerful cloud-based analytics platform for Moodle that provides deep learning insights through customizable dashboards, reports, and data exports. Ideal for institutions requiring enterprise-level reporting.
+- 📊 [Resource Stats](https://moodle.org/plugins/local_resourcestats) ![Free](https://img.shields.io/badge/Free-green) - Displays access badges directly on the course page showing total views and unique student counts per resource or activity, visible to teachers only, with GDPR-compliant privacy support.
+- ✅ [Teacher Checklist](https://moodle.org/plugins/block_teacher_checklist) ![Free](https://img.shields.io/badge/Free-green) - Block that combines automatic detection of 9 common course setup issues (hidden course, missing gradebook items, incomplete activities) with a manual to-do list, helping educators ensure everything is ready before students access the course.
 
 ### 🔐 Authentication & Security
 
@@ -212,6 +216,7 @@
 - 🎯 [Stash](https://moodle.org/plugins/block_stash) ![Free](https://img.shields.io/badge/Free-green) - Collect and use items in a course. Add a treasure hunt element to your courses.
 - 📈 [Leaderboard](https://moodle.org/plugins/block_leaderboard) ![Free](https://img.shields.io/badge/Free-green) - Rank students based on points and achievements. Foster a sense of competition and motivation.
 - 🎯 [Ludilearn](https://moodle.org/plugins/format_ludilearn) ![Free](https://img.shields.io/badge/Free-green) - An adaptive gamification plugin developed through academic research and presented at MoodleMoot France 2025. It intelligently adapts game mechanics to individual learner profiles, making gamification more effective and personalized.
+- 🕹️ [PlayerHUD](https://moodle.org/plugins/block_playerhud) ![Free](https://img.shields.io/badge/Free-green) - Full gamification engine with XP, levels, inventory, quests, RPG characters, NPC shop, and leaderboard. Includes an optional AI assistant to generate items and a drop system to hide collectibles inside course content.
 
 ### 💬 Communication
 
