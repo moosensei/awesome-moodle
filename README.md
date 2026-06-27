@@ -73,6 +73,7 @@
 - [🔬 Research & Case Studies](#-research--case-studies)
 - [🌐 Multilingual Resources](#-multilingual-resources)
 - [🏆 Awards & Recognition](#-awards--recognition)
+- [📢 News & Ecosystem Updates (2025–2026)](#-news--ecosystem-updates-20252026)
 
 ---
 
@@ -89,11 +90,11 @@
 - 📋 [Release Information](https://moodledev.io/general/releases) - Version support and release details for all Moodle versions. Understand support timelines, LTS versions, and upgrade paths.
 - ⬇️ [Downloads](https://download.moodle.org/releases/latest/) - Latest official Moodle releases and previous versions. Download the Moodle software directly from the official source.
 - 🗺️ [Roadmap](https://moodledev.io/general/roadmap) - Future development plans and upcoming features. Stay informed about the direction of Moodle development.
-- 📊 [Statistics](https://stats.moodle.org/) - Global Moodle usage statistics and adoption metrics. See how Moodle is used worldwide across educational institutions.
+- 📊 [Statistics](https://stats.moodle.org/) - Global Moodle usage statistics and adoption metrics. In late 2025, Moodle officially surpassed **500 million users** across more than 148,000 registered sites worldwide.
 - 🤖 [AI Tools Documentation](https://docs.moodle.org/en/AI_tools) - Official documentation for Moodle's built-in AI subsystem, introduced in Moodle 4.5 and significantly expanded in 5.0, 5.1, and 5.2. Covers placements, actions, and provider configuration for OpenAI, Azure AI, Ollama, DeepSeek, Gemini, and Amazon Bedrock.
-- 🏢 [Moodle Workplace](https://moodle.com/solutions/workplace/) - Moodle's dedicated corporate learning solution built on top of Moodle LMS, tailored for employee training, compliance, and professional development in enterprise environments.
-- 🌐 [Moodle Events](https://moodle.com/events/) - Official calendar of global MoodleMoot conferences and virtual events, including upcoming MoodleMoots for Canada, Philippines, and the Global 2026 event in Mexico City.
-- 🛒 [Moodle Marketplace](https://moodle.org/news) - The upcoming official Moodle Marketplace (launching mid-2026), replacing the legacy Plugins Directory to offer both free and premium plugins in a unified ecosystem.
+- 🏢 [Moodle Workplace](https://moodle.com/solutions/workplace/) - Moodle's dedicated corporate learning solution built on top of Moodle LMS. The recent Workplace 4.5+ releases introduced automatic pricing updates in the Learning Catalogue, enhanced course curation, and native AI integration for content generation and summarization.
+- 🌐 [Moodle Events](https://moodle.com/events/) - Official calendar of global MoodleMoot conferences and virtual events. In 2026, the flagship global event was rebranded from MoodleMoot Global to **MIX (Moodle Ideas Exchange)**, scheduled in Istanbul, Turkey.
+- 🛒 [Moodle Marketplace](https://marketplace.moodle.com/) - The official Moodle Marketplace (launched mid-2026), replacing the legacy Plugins Directory to offer both free and premium plugins in a unified ecosystem with integrated payments and invoicing.
 
 [🔝 Back to top](#-contents)
 
@@ -169,7 +170,7 @@
 - 🛡️ [reCAPTCHA](https://moodle.org/plugins/auth_recaptcha) ![Free](https://img.shields.io/badge/Free-green) - Enhanced security against automated attacks. Protect login pages from bots and brute force attacks.
 - 🔐 [OAuth2](https://moodle.org/plugins/auth_oauth2) ![Free](https://img.shields.io/badge/Free-green) - OAuth2 authentication for social login integration. Allow students to login with Google, Facebook, or other providers.
 - 🏢 [LDAP](https://docs.moodle.org/en/LDAP_authentication) ![Free](https://img.shields.io/badge/Free-green) - LDAP/Active Directory integration for enterprise user management. Sync users from corporate directories.
-- 🔒 [Two-Factor Authentication](https://moodle.org/plugins/auth_totp) ![Free](https://img.shields.io/badge/Free-green) - Enhanced login security with two-factor authentication. Require additional verification for account access. In Moodle 5.2, the MFA experience was visually refreshed for consistency across Email, SMS, Security Key, and Authenticator App methods.
+- 🔒 [Two-Factor Authentication (MFA)](https://moodle.org/plugins/auth_totp) ![Free](https://img.shields.io/badge/Free-green) - Enhanced login security with multi-factor authentication. Require additional verification for account access. In early 2026, Moodle also enabled MFA across its own community sites (moodle.org) to bolster security. In Moodle 5.2, the MFA experience was visually refreshed for consistency across Email, SMS, Security Key, and Authenticator App methods.
 - 🛡️ [Security Report](https://moodle.org/plugins/report_security) ![Free](https://img.shields.io/badge/Free-green) - Security audit tool for identifying vulnerabilities. Check your Moodle installation for security issues.
 - ✏️ [Cursive](https://moodle.org/plugins/plagiarism_cursive) ![Premium](https://img.shields.io/badge/Premium-orange) - Authorship verification and written integrity checking. Detect AI-generated content and verify student work authenticity.
 - 🔒 [Quilgo Proctoring](https://moodle.org/plugins/quizaccess_quilgo) ![Premium](https://img.shields.io/badge/Premium-orange) - AI-powered online proctoring solution for Moodle quizzes. Uses webcam monitoring, screen recording, and behavioral analysis to ensure academic integrity during remote assessments.
@@ -181,6 +182,7 @@
 
 - 🧠 [Moodle Core AI](https://docs.moodle.org/en/AI_tools) ![Free](https://img.shields.io/badge/Free-green) - Moodle's native AI subsystem, introduced in version 4.5, provides a framework for integrating AI providers like OpenAI, Azure AI, and open-source models. This allows for the development of built-in AI-powered features for content generation, analytics, and personalized learning.
 - 💬 [OpenAI Chat Block](https://moodle.org/plugins/block_openai_chat) ![Free](https://img.shields.io/badge/Free-green) - A highly popular block that provides 24/7 GPT-powered chat support directly within a Moodle course. It allows for customizable AI personalities and can be configured to answer student questions based on course content.
+- 🤖 [Asyntai](https://asyntai.com/) ![Premium](https://img.shields.io/badge/Premium-orange) - A leading multilingual AI chatbot for Moodle in 2026. It trains on your course materials and syllabus PDFs, providing automated 24/7 student support in their native language with a simple plugin or JS snippet installation.
 - 🔗 [AI Connector](https://moodle.org/plugins/local_ai_connector) ![Free](https://img.shields.io/badge/Free-green) - A versatile plugin that connects Moodle to a variety of AI services, including ChatGPT for text generation, DALL-E and Stable Diffusion for image creation, and more. It acts as a centralized hub for accessing different AI capabilities.
 - 📊 [Datacurso AI Provider](https://moodle.org/plugins/aiprovider_datacurso) ![Free](https://img.shields.io/badge/Free-green) - A core AI engine that integrates Datacurso's advanced AI services into Moodle. This provider enables sophisticated analytics, predictive modeling, and personalized learning recommendations.
 - ❓ [Generative AI Question Bank](https://moodle.org/plugins/qbank_genai) ![Free](https://img.shields.io/badge/Free-green) - An innovative tool that leverages generative AI to automatically create quiz questions and entire question banks from course content, such as documents or text passages, saving educators significant time.
@@ -192,6 +194,7 @@
 - ☁️ [Amazon Bedrock API Provider](https://moodle.org/plugins/aiprovider_bedrock) ![Free](https://img.shields.io/badge/Free-green) - Integrated into Moodle 5.2 core, this provider enables the use of Amazon's AI platform within Moodle, allowing access to multiple foundation models (Claude, Titan, Llama) while keeping data within configured AWS regions.
 - ✍️ [Tiny AI Prompt Generator](https://moodle.org/plugins/tiny_aiprompt) ![Free](https://img.shields.io/badge/Free-green) - A TinyMCE editor plugin that helps teachers build structured, pedagogically sound AI prompts directly within the Moodle text editor. Simplifies the process of leveraging AI for content creation without leaving the editor.
 - 🎓 [Course Creator AI](https://moodle.org/plugins/local_coursegen) ![Free](https://img.shields.io/badge/Free-green) - Empowers Moodle teachers to generate complete courses automatically using artificial intelligence. Released January 2026, it creates course structures, activities, and content from a simple topic description.
+- 🚀 [CourseAI](https://moodle.com/news/moodle-plugin-courseai/) ![Premium](https://img.shields.io/badge/Premium-orange) - A powerful plugin developed collaboratively by Moodle Premium Partners that turns a topic description or uploaded materials (PDFs, videos, audio) into a fully structured Moodle course with native activities in under three minutes.
 - 🤖 [SmartEdu AI Block](https://moodle.org/plugins/block_smartedu) ![Free](https://img.shields.io/badge/Free-green) - An intelligent learning block that integrates with Gemini, ChatGPT, and local Ollama models to provide AI-powered assistance to students directly within their Moodle courses.
 - ⚖️ [AI Assessment Scale](https://moodle.org/plugins/local_assignmentnotice) ![Free](https://img.shields.io/badge/Free-green) - Gives teachers and course creators an easy, consistent way to label assignments with information about the AI Assessment Scale, guiding the appropriate and ethical use of generative AI in assessment design.
 - 📝 [AI Grade](https://moodle.org/plugins/local_aigrade) ![Free](https://img.shields.io/badge/Free-green) - A powerful local plugin that seamlessly integrates with Moodle's assignment module to provide AI-assisted grading capabilities, assisting teachers in the grading and feedback process.
@@ -314,6 +317,7 @@
 - 🆕 [What's New in Moodle 5.0](https://moodledev.io/general/releases/5.0) - Moodle 5.0 (April 2025) introduced the expanded AI subsystem with Ollama support, SMS notifications, shared question banks, Bootstrap 5, and major accessibility improvements including WCAG 2.2 compliance.
 - 🆕 [What's New in Moodle 5.1](https://moodledev.io/general/releases/5.1) - Moodle 5.1 (October 2025) introduced the new `/public` directory structure, a routing engine for cleaner URLs, the DeepSeek AI provider, a redesigned activity chooser, and a new centralized course overview page.
 - 🆕 [What's New in Moodle 5.2](https://moodledev.io/general/releases/5.2) - Moodle 5.2 (April 2026) continues the modernization of the platform with Gemini AI and Amazon Bedrock integrated into core, multiple markers for assignments, a refreshed dashboard and login experience, React foundations in core, Moodle Design System integration, Composer installation support, and OpenTelemetry tracing support.
+- 🔮 [Upcoming Moodle 5.3 LTS](https://moodledev.io/general/releases/5.3) - Moodle 5.3 LTS is scheduled for release on October 5, 2026. It will be the next Long-Term Support version, building upon the UI, AI, and architecture enhancements introduced in 5.1 and 5.2.
 
 [🔝 Back to top](#-contents)
 
@@ -419,9 +423,9 @@
 
 ## 🌍 Conferences & Events
 
-**Connect with the Moodle community at events** - MoodleMoots are official Moodle conferences held worldwide, bringing together educators, developers, and administrators. These events are a fantastic opportunity to learn from experts, share best practices, and network with peers. This section highlights key upcoming MoodleMoots for 2026.
+**Connect with the Moodle community at events** - MoodleMoots are official Moodle conferences held worldwide, bringing together educators, developers, and administrators. These events are a fantastic opportunity to learn from experts, share best practices, and network with peers. In 2026, the flagship global event was rebranded as **MIX (Moodle Ideas Exchange)**, planned for Istanbul, Turkey. This section highlights key MoodleMoots and events for 2026.
 
-- 🌐 [MIX 2026 (Moodle Ideas Exchange)](https://moodle.com/moodle-ideas-exchange/) - Moodle's new flagship annual event, formerly known as MoodleMoot Global. MIX 2026 will take place in **Istanbul, Turkey**, bringing together global thinkers and doers from education and business.
+- 🌐 [MIX 2026 (Moodle Ideas Exchange)](https://moodle.com/moodle-ideas-exchange/) - Moodle's new flagship annual event, formerly known as MoodleMoot Global. MIX 2026 will take place in **Istanbul, Turkey**, bringing together global thinkers and doers from education and business to share ideas and shape the future of learning.
 - 🇨🇱 [MoodleMoot Chile 2026](https://moodle.com/events/) - Hosted by Mindfree in **Santiago de Chile** on **May 26-27, 2026**.
 - 🇨🇦 [MoodleMoot Canada 2026](https://www.catalyst-ca.net/moodle-moot-event-canada) - Taking place in **Montreal, Québec** on **May 27-28, 2026**, hosted by Catalyst IT Canada.
 - 🇭🇷 [MoodleMoot Hrvatska 2026](https://moodle.com/events/) - Hosted by SRCE in **Zagreb, Croatia** on **June 11-12, 2026**.
@@ -543,6 +547,7 @@
 - 📈 **Learning Outcomes**: A collection of studies that compare the learning outcomes of Moodle-based courses with traditional teaching methods.
 - 🎯 **Engagement Metrics**: Research on how Moodle can be used to increase student engagement and completion rates.
 - 📱 **Mobile Learning**: Studies on the effectiveness of the Moodle mobile app and mobile learning strategies.
+- 🌐 **LMS Market Share 2026**: The global LMS market is valued at $31.6B–$37.1B in 2026, growing at 16–20% CAGR. Moodle leads globally by installation count (500M+ users, 148,000+ registered sites), while Canvas dominates North American higher education by enrollment (~50%). The May 2026 Canvas security breach accelerated interest in open-source alternatives, with several institutions evaluating or migrating to Moodle as a result.
 
 [🔝 Back to top](#-contents)
 
@@ -578,6 +583,7 @@
 ### 🏅 Moodle Awards
 
 - 🌟 **Moodle Partner Awards** - Annual awards that recognize the outstanding contributions of Moodle Certified Service Providers.
+- 📈 **GSV 150 Recognition** - In late 2025/2026, Moodle was named to the GSV 150 list, recognizing it as one of the world's most transformational companies in digital learning and workforce skills.
 - 🎓 **Education Excellence Awards** - Awards that celebrate the best educational implementations of Moodle.
 - 👨‍💻 **Developer Recognition** - Recognition for developers who have made significant contributions to the Moodle ecosystem through plugins and themes.
 
@@ -586,6 +592,34 @@
 - 📊 **EdTech Awards** - Moodle and its partners are frequently recognized in various EdTech awards for their innovative solutions.
 - 🏢 **Corporate Training Awards** - Awards that recognize excellence in workplace learning, where Moodle is a popular platform.
 - 🌍 **B Corp Certification** - Moodle was recertified as a B Corporation in July 2025, expanding its certification in the US and India, reinforcing its commitment to using business as a force for good.
+
+[🔝 Back to top](#-contents)
+
+---
+
+## 📢 News & Ecosystem Updates (2025–2026)
+
+**Stay informed about the latest developments in the Moodle ecosystem** - This section highlights the most significant news, milestones, and ecosystem changes that have occurred in the Moodle world during 2025–2026. From major product announcements to community milestones and industry recognition, these updates paint a picture of a platform that continues to grow and evolve.
+
+### 🎉 Milestones
+
+- 📈 **500 Million Users** - In December 2025, Moodle officially announced surpassing 500 million users on registered Moodle sites worldwide, spanning more than 148,000 installations across 234 countries. This milestone represents 23 years of open-source learning innovation.
+- 🏆 **GSV 150 Recognition** - Moodle was named to the 2026 GSV 150, a prestigious list of the world's most transformational companies in digital learning and workforce skills, evaluated from over 3,000 companies.
+- 🌍 **B Corp Recertification** - Moodle was recertified as a B Corporation in July 2025, with expanded certification in the US and India, reinforcing its commitment to using business as a force for good.
+
+### 🚀 Product & Platform News
+
+- 🛒 **Moodle Marketplace Launch** - Moodle launched its official Marketplace in mid-2026, replacing the legacy Plugins Directory. The new platform supports both free and paid plugins, with integrated payments, invoicing, and quality assurance checks.
+- 🔒 **MFA on Community Sites** - In February 2026, Moodle enabled Multi-Factor Authentication (MFA) across all its community sites (moodle.org), requiring users to complete a quick verification step to improve account security.
+- 📴 **MoodleNet Closure** - MoodleNet, Moodle's federated social network for educators, was closed on April 24, 2026, in line with Moodle HQ's focus on core platform improvements.
+- 🌐 **MIX (Moodle Ideas Exchange)** - The annual MoodleMoot Global conference was rebranded as MIX (Moodle Ideas Exchange) in 2025, with the 2026 edition planned for Istanbul, Turkey.
+- 🤖 **CourseAI Plugin** - A collaboration between three Moodle Premium Partners (E-learning Touch', 3ipunt, and Moxis) produced CourseAI, a plugin that generates fully structured Moodle courses from a topic description or uploaded materials in under three minutes.
+
+### 📊 LMS Market Context
+
+- The global LMS market is valued at **$31.6B–$37.1B** in 2026, growing at 16–20% CAGR, projected to exceed $100B by 2032.
+- A major **Canvas security breach** in May 2026 (ShinyHunters, ~275 million records, 8,809 institutions) accelerated interest in open-source and self-hosted LMS alternatives, with the University of British Columbia and others evaluating or migrating to Moodle.
+- **Blackboard/Anthology** filed for Chapter 11 bankruptcy in September 2025 and emerged as standalone Blackboard in February 2026, shedding non-LMS businesses.
 
 [🔝 Back to top](#-contents)
 
