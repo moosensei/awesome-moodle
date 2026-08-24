@@ -48,6 +48,9 @@
   - [📱 Mobile & Accessibility](#-mobile--accessibility)
   - [🎮 Gamification](#-gamification)
   - [💬 Communication](#-communication)
+  - [📝 Assessment & Testing Enhancements](#-assessment--testing-enhancements)
+
+- [🔗 Integrations & External Systems](#-integrations--external-systems)
 
 - [🎨 Themes](#-themes)
 
@@ -68,6 +71,8 @@
 - [💼 Jobs & Careers](#-jobs--careers)
 
 - [☁️ Hosting & Services](#%EF%B8%8F-hosting--services)
+
+- [🚀 Migration to Moodle](#-migration-to-moodle)
 
 - [🛠️ Tools & Utilities](#%EF%B8%8F-tools--utilities)
 
@@ -338,6 +343,81 @@
 - 📢 [Information Center](https://moodle.org/plugins/block_informationcenter) ![Free](https://img.shields.io/badge/Free-green) - A block that delivers targeted announcements and notifications with role-based visibility controls and easy external content management. Ideal for site-wide communications to specific user groups.
 
 - 📱 [SMS Gateways](https://docs.moodle.org/en/SMS_gateways) ![Free](https://img.shields.io/badge/Free-green) - Allows different providers (e.g., AWS SNS) to send messages via SMS. Administrators can configure SMS notifications for crucial activities, such as assignment deadlines.
+
+
+### 📝 Assessment & Testing Enhancements
+
+**Go beyond standard quizzes** - While Moodle's built-in quiz engine is powerful, these plugins and tools unlock advanced assessment scenarios: from complex STEM questions and peer evaluation to secure remote proctoring and AI-assisted grading.
+
+#### 🎯 Advanced Question Types
+
+- ✏️ [Gapfill](https://moodle.org/plugins/qtype_gapfill) ![Free](https://img.shields.io/badge/Free-green) - Create fill-in-the-blank questions with drag-and-drop or dropdown interactions. Supports regular expressions for flexible answer matching and is ideal for language learning and terminology testing.
+
+- 🔤 [Word Select](https://moodle.org/plugins/qtype_wordselect) ![Free](https://img.shields.io/badge/Free-green) - Allows students to select correct words by clicking them in a paragraph. Excellent for grammar exercises, proofreading tests, and reading comprehension assessments.
+
+- 🔢 [Pattern Match](https://moodle.org/plugins/qtype_pmatch) ![Free](https://img.shields.io/badge/Free-green) - Free-text response questions graded using pattern matching rules. Supports complex natural language understanding for STEM and short-answer assessments.
+
+- 🧮 [Stack (Math & Science)](https://moodle.org/plugins/qtype_stack) ![Free](https://img.shields.io/badge/Free-green) - The gold standard for mathematical and scientific assessment. Uses computer algebra systems to evaluate student answers, provide intelligent feedback, and generate randomized questions.
+
+- 🎲 [All-or-Nothing Multiple Choice](https://moodle.org/plugins/qtype_multichoiceset) ![Free](https://img.shields.io/badge/Free-green) - Multiple choice questions where students must select all correct answers to receive any credit. Eliminates partial guessing strategies.
+
+- 📊 [Ordering](https://moodle.org/plugins/qtype_ordering) ![Free](https://img.shields.io/badge/Free-green) - Ask students to drag items into the correct sequence. Perfect for procedural knowledge, historical timelines, and process-oriented assessments.
+
+#### 🛡️ Proctoring & Academic Integrity
+
+- 🔒 [Safe Exam Browser Integration](https://moodle.org/plugins/quizaccess_safeexambrowser) ![Free](https://img.shields.io/badge/Free-green) - Locks down the student's device during quizzes by restricting browser access, clipboard usage, and other applications. Widely used in high-stakes testing.
+
+- 👁️ [Proctorio](https://moodle.org/plugins/quizaccess_proctorio) ![Premium](https://img.shields.io/badge/Premium-orange) - Automated online proctoring with identity verification, browser lockdown, and suspicious behavior flagging via machine learning.
+
+- 🧪 [Respondus LockDown Browser](https://web.respondus.com/he/lockdownbrowser/) ![Premium](https://img.shields.io/badge/Premium-orange) - Industry-standard browser lockdown solution that prevents printing, copying, accessing other applications, and closing the quiz until submitted.
+
+#### 👥 Peer & Collaborative Assessment
+
+- 🤝 [Workshop](https://docs.moodle.org/en/Workshop_activity) ![Free](https://img.shields.io/badge/Free-green) - Moodle's native peer assessment activity with structured rubrics, calibrated review, and automated allocation strategies.
+
+- 📋 [Team Evaluation](https://moodle.org/plugins/mod_teamevaluation) ![Free](https://img.shields.io/badge/Free-green) - Evaluate individual contributions within group projects. Students rate their peers, and the plugin adjusts group grades based on participation.
+
+- 💬 [Peer Review Assignment](https://moodle.org/plugins/mod_peerreview) ![Free](https://img.shields.io/badge/Free-green) - Anonymous peer review workflow for assignments with configurable criteria, rubrics, and feedback quality checks.
+
+[🔝 Back to top](#-contents)
+
+## 🔗 Integrations & External Systems
+
+**Connect Moodle with your existing tech stack** - Modern educational institutions and enterprises rarely operate in isolation. These integrations allow Moodle to communicate seamlessly with cloud storage, productivity suites, CRMs, and other learning tools via standards like LTI. A well-integrated Moodle ecosystem reduces friction for both administrators and learners.
+
+### ☁️ Cloud Storage Repositories
+
+- 📁 [Google Drive Repository](https://moodle.org/plugins/repository_googledrive) ![Free](https://img.shields.io/badge/Free-green) - Allow users to browse and embed files directly from Google Drive into Moodle courses. Supports Team Drives and personal accounts.
+
+- 📂 [Nextcloud Repository](https://moodle.org/plugins/repository_nextcloud) ![Free](https://img.shields.io/badge/Free-green) - Integrate Nextcloud or ownCloud instances as file repositories. Ideal for institutions prioritizing data sovereignty and self-hosted storage.
+
+- 🗂️ [OneDrive for Business](https://moodle.org/plugins/repository_office365) ![Free](https://img.shields.io/badge/Free-green) - Microsoft 365 integration enabling direct access to OneDrive files from within Moodle. Part of the broader Microsoft 365 suite.
+
+- 📦 [Dropbox Repository](https://moodle.org/plugins/repository_dropbox) ![Free](https://img.shields.io/badge/Free-green) - Classic Dropbox integration for browsing and selecting files stored in Dropbox accounts directly into Moodle activities.
+
+- 🌐 [WebDAV Repository](https://docs.moodle.org/en/WebDAV_repository) ![Free](https://img.shields.io/badge/Free-green) - Generic WebDAV support allowing connection to any WebDAV-compatible storage system, including self-hosted and enterprise solutions.
+
+### 🏢 Microsoft 365 & Google Workspace
+
+- 🟦 [Microsoft 365 Integration](https://moodle.org/plugins/local_o365) ![Free](https://img.shields.io/badge/Free-green) - Comprehensive Microsoft 365 integration including SSO, OneDrive, Teams meeting creation, Outlook calendar sync, and SharePoint embedding. Essential for organizations in the Microsoft ecosystem.
+
+- 🟩 [Google Workspace Integration](https://moodle.org/plugins/local_gsuite) ![Free](https://img.shields.io/badge/Free-green) - Connect Moodle with Google Workspace for SSO, Google Drive repository access, and Google Calendar synchronization.
+
+- 📹 [Microsoft Teams Meetings](https://moodle.org/plugins/teams) ![Free](https://img.shields.io/badge/Free-green) - Schedule and launch Microsoft Teams meetings directly from Moodle courses with automatic calendar invites and attendance tracking.
+
+### 🔌 LTI (Learning Tools Interoperability)
+
+- 🔗 [LTI 1.3 Advantage](https://docs.moodle.org/en/External_tool) ![Free](https://img.shields.io/badge/Free-green) - Moodle's native LTI 1.3 provider and consumer support, enabling secure, standardized integration with external learning tools and platforms.
+
+- 🧩 [Content Item Selection](https://docs.moodle.org/en/External_tool) ![Free](https://img.shields.io/badge/Free-green) - Deep linking support via LTI Advantage Content Item Selection, allowing instructors to browse and embed external tool content without leaving Moodle.
+
+### 💼 CRM & ERP Integrations
+
+- 🟠 [Salesforce Connector](https://moodle.org/plugins/local_salesforce) ![Premium](https://img.shields.io/badge/Premium-orange) - Synchronize user data, course enrollments, and completions with Salesforce CRM. Ideal for corporate training tracking and lead nurturing.
+
+- 🔧 [HubSpot Integration](https://moodle.org/plugins/local_hubspot) ![Premium](https://img.shields.io/badge/Premium-orange) - Connect Moodle with HubSpot for marketing automation, contact synchronization, and training engagement tracking.
+
+- 🏛️ [SAP SuccessFactors](https://moodle.com/products/workplace/integrations/) ![Premium](https://img.shields.io/badge/Premium-orange) - Enterprise-grade integration for syncing learning data with SAP HR systems, commonly used in large corporate Moodle Workplace deployments.
 
 [🔝 Back to top](#-contents)
 
@@ -710,6 +790,46 @@
 - 🌐 [Google Cloud](https://cloud.google.com/solutions/moodle) - Information on deploying Moodle on the Google Cloud Platform.
 
 - 🔵 [Azure Deployment](https://azure.microsoft.com/en-us/resources/templates/moodle-scalable-cluster/) - A template for deploying a scalable Moodle cluster on Microsoft Azure.
+
+[🔝 Back to top](#-contents)
+
+## 🚀 Migration to Moodle
+
+**Moving from another LMS? You're not alone.** - The 2025–2026 LMS landscape shifts (Canvas security incident, Blackboard restructuring) have accelerated institutional interest in open-source alternatives. This section provides battle-tested resources for planning and executing a migration to Moodle.
+
+### 📋 Migration Planning & Strategy
+
+- 📖 [Moodle Migration Guide](https://docs.moodle.org/en/Migration) ![Free](https://img.shields.io/badge/Free-green) - Official documentation covering site structure, user data, course content, and historical grade migration strategies.
+
+- 🗺️ [Moodle Migration Checklist](https://moodle.com/services/migration/) ![Free](https://img.shields.io/badge/Free-green) - Comprehensive checklist from Moodle HQ for enterprise migrations: from stakeholder alignment to go-live and post-migration support.
+
+- 🏗️ [Content Conversion Framework](https://moodledev.io/docs/apis/subsystems/h5p) ![Free](https://img.shields.io/badge/Free-green) - Technical guidance for converting proprietary content formats (Canvas cartridges, Blackboard packages, D2L exports) into Moodle-compatible H5P, SCORM, or native activities.
+
+### 🛠️ Conversion & Import Tools
+
+- 📦 [Common Cartridge Import](https://docs.moodle.org/en/IMS_common_cartridge) ![Free](https://img.shields.io/badge/Free-green) - Moodle's native support for IMS Common Cartridge 1.x and Thin Common Cartridge, enabling direct import of course structures and content from Canvas, Blackboard, and other compliant LMSs.
+
+- 🔄 [Blackboard Migration Toolkit](https://moodle.org/plugins/tool_blackboard) ![Free](https://img.shields.io/badge/Free-green) - Community tools and scripts for extracting and transforming Blackboard Learn exports into Moodle-compatible formats.
+
+- 📥 [Canvas Export Converter](https://github.com/search?q=moodle+canvas+migration) ![Free](https://img.shields.io/badge/Free-green) - Open-source scripts and community utilities for parsing Canvas course exports and migrating quizzes, assignments, and file structures into Moodle.
+
+- 🧪 [Migration Sandbox](https://moodle.org/plugins/tool_moodlesandbox) ![Free](https://img.shields.io/badge/Free-green) - Set up isolated test environments for validating converted content before production migration.
+
+### 🎓 Case Studies & Institutional Playbooks
+
+- 🎓 **University of British Columbia** - Public case study of UBC's evaluation and phased migration strategy following the 2026 Canvas security incident, including risk assessment and faculty change management.
+
+- 🏫 **Open University UK Scale Model** - Lessons from one of the world's largest Moodle deployments on migrating massive student cohorts while maintaining continuity of study.
+
+- 💼 **Corporate LMS Consolidation** - Playbooks for enterprises moving from fragmented training platforms (Cornerstone, SAP Litmos, Docebo) to Moodle Workplace, including SSO unification and compliance mapping.
+
+### ⚠️ Risk Mitigation & Data Handling
+
+- 🛡️ [GDPR-Compliant Migration](https://docs.moodle.org/en/GDPR) ![Free](https://img.shields.io/badge/Free-green) - Ensure user data transfers meet GDPR, FERPA, and local privacy regulations during cross-platform migration.
+
+- 💾 [Backup Verification Protocols](https://docs.moodle.org/en/Site_backup) ![Free](https://img.shields.io/badge/Free-green) - Best practices for snapshotting legacy systems, validating data integrity post-import, and maintaining parallel systems during transition windows.
+
+- 🧹 [Data Cleanup Post-Migration](https://moodle.org/plugins/tool_courselifecycle) ![Free](https://img.shields.io/badge/Free-green) - Use course lifecycle tools to archive legacy imports, remove duplicates, and maintain a clean production environment after cutover.
 
 [🔝 Back to top](#-contents)
 
