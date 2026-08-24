@@ -22,7 +22,7 @@
 </div>
 <div align="center">
 
-![GitHub stars](https://img.shields.io/github/stars/moosensei/awesome-moodle?style=social)![GitHub forks](https://img.shields.io/github/forks/moosensei/awesome-moodle?style=social)![GitHub watchers](https://img.shields.io/github/watchers/moosensei/awesome-moodle?style=social)
+![GitHub stars](https://img.shields.io/github/stars/moosensei/awesome-moodle?style=social) ![GitHub forks](https://img.shields.io/github/forks/moosensei/awesome-moodle?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/moosensei/awesome-moodle?style=social)
 
 </div>
 
