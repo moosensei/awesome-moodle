@@ -607,6 +607,7 @@
 - 🐍 [python-moodle](https://github.com/erseco/python-moodle) - A Python CLI and library for Moodle automation, including course management and content workflows through web sessions and CAS/SSO.
 - 🐳 [alpine-moodle](https://github.com/erseco/alpine-moodle) - A lightweight Moodle Docker image (~100MB) built on Alpine Linux with PHP 8.3 FPM, Nginx, Redis session support, Moosh CLI, and multi-arch support. Optimized for 100 concurrent users with minimal resource usage via PHP-FPM ondemand and runit. Configurable entirely via environment variables with pre/post configuration hooks.
 - 🌐 [Moodle Playground](https://github.com/ateeducacion/moodle-playground) - Run Moodle directly in your browser using WebAssembly (WASM), no server required. Try it at [moodle-playground.com](https://moodle-playground.com).
+- 📦 [CourseZip Check](https://github.com/jarrettdustinqq/coursezip-check) - Free, offline SCORM ZIP packaging preflight. Checks root manifests and declared file references locally without uploading or executing course content. Single-file HTML preview; packaging checks only, not SCORM certification or LMS runtime testing.
 
 [🔝 Back to top](#-contents)
 
