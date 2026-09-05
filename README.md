@@ -6,7 +6,7 @@
 [![Contributors](https://img.shields.io/github/contributors/moosensei/awesome-moodle.svg)](https://github.com/moosensei/awesome-moodle/graphs/contributors)
 [![Last Commit](https://img.shields.io/github/last-commit/moosensei/awesome-moodle.svg)](https://github.com/moosensei/awesome-moodle/commits/main)
 
-![Awesome Moodle Summary](https://i.postimg.cc/jjDChRQM/482604814-8ec0c4b8-c842-4375-a12b-97e87949d9b0.png)
+![Awesome Moodle Summary](https://i.postimg.cc/1zd3ML6F/awesome-moodle-hero-banner.jpg)
 <div align="center">
   <h3>🎓 A curated list of awesome Moodle resources, plugins, themes, and tools</h3>
   <p>
