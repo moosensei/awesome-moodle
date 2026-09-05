@@ -283,6 +283,7 @@
 
 - 🔗 [LTI 1.3 Advantage](https://docs.moodle.org/en/External_tool) ![Free](https://img.shields.io/badge/Free-green) - Moodle's native LTI 1.3 provider and consumer support, enabling secure, standardized integration with external learning tools and platforms.
 - 🧩 [Content Item Selection](https://docs.moodle.org/en/External_tool) ![Free](https://img.shields.io/badge/Free-green) - Deep linking support via LTI Advantage Content Item Selection, allowing instructors to browse and embed external tool content without leaving Moodle.
+- 🧪 [ICTEXAM Assessment (mod_ictexam)](https://github.com/ictinnovations/moodle-mod_ictexam) ![Free](https://img.shields.io/badge/Free-green) - GPLv3 activity module that launches an ICTEXAM exam paper over LTI 1.3 inside the course page and writes the score back to the gradebook through AGS. Handles backup, restore and the recycle bin; Moodle 4.1 to 4.5. The plugin is free and open source, the exam service behind it is hosted.
 
 ### 💼 CRM & ERP Integrations
 
