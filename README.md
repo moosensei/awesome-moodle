@@ -607,6 +607,7 @@
 - 🐍 [python-moodle](https://github.com/erseco/python-moodle) - A Python CLI and library for Moodle automation, including course management and content workflows through web sessions and CAS/SSO.
 - 🐳 [alpine-moodle](https://github.com/erseco/alpine-moodle) - A lightweight Moodle Docker image (~100MB) built on Alpine Linux with PHP 8.3 FPM, Nginx, Redis session support, Moosh CLI, and multi-arch support. Optimized for 100 concurrent users with minimal resource usage via PHP-FPM ondemand and runit. Configurable entirely via environment variables with pre/post configuration hooks.
 - 🌐 [Moodle Playground](https://github.com/ateeducacion/moodle-playground) - Run Moodle directly in your browser using WebAssembly (WASM), no server required. Try it at [moodle-playground.com](https://moodle-playground.com).
+- 🦁 [MBZoo](https://github.com/ateeducacion/mbzoo) - Inspect Moodle course backups (`.mbz`) directly in your browser without installing Moodle or uploading the backup. Explore course structure, activities, content, and files locally.
 
 [🔝 Back to top](#-contents)
 
