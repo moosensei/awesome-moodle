@@ -247,6 +247,10 @@
 
 - 📊 [Ordering](https://moodle.org/plugins/qtype_ordering) ![Free](https://img.shields.io/badge/Free-green) - Ask students to drag items into the correct sequence. Perfect for procedural knowledge, historical timelines, and process-oriented assessments.
 
+#### 🧰 Question Preparation Tools
+
+- 🔀 [mona-tron-de](https://github.com/themonagroup/mona-tron-de) ![Free](https://img.shields.io/badge/Free-green) - Open-source (MIT) CLI and browser library that reads questions from plain text, Word, Aiken or GIFT and produces shuffled exam versions with answer keys. Exports Aiken and GIFT for re-importing into the Moodle question bank; supports locked options, reading groups and true/false statement sets.
+
 #### 🛡️ Proctoring & Academic Integrity
 
 - 🔒 [Safe Exam Browser Integration](https://moodle.org/plugins/quizaccess_safeexambrowser) ![Free](https://img.shields.io/badge/Free-green) - Locks down the student's device during quizzes by restricting browser access, clipboard usage, and other applications. Widely used in high-stakes testing.
