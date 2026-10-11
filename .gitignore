@@ -1,0 +1,27 @@
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dropbox
+.dropbox
+.dropbox.attr
+*conflicted copy*
+
+# Local secrets and scratch files
+.env
+.env.*
+*.pem
+event.json

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report phishing, malware, or a hijacked link (private)
+    url: https://github.com/moosensei/awesome-moodle/security/advisories/new
+    about: Dangerous links are handled privately and removed quickly. See SECURITY.md.
+  - name: Contributing guide
+    url: https://github.com/moosensei/awesome-moodle/blob/main/CONTRIBUTING.md
+    about: What we list, the rules for plugin authors and vendors, and how the submission bot works.

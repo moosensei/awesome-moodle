@@ -1,0 +1,13 @@
+# Every change needs a review from the maintainer when "Require review from Code
+# Owners" is enabled in the branch ruleset. Automation and policy files are listed
+# explicitly so the intent survives if the catch-all rule ever changes.
+*                               @moosensei
+
+/.github/                       @moosensei
+/scripts/                       @moosensei
+/tests/                         @moosensei
+/docs/                          @moosensei
+/LICENSE                        @moosensei
+/SECURITY.md                    @moosensei
+/CONTRIBUTING.md                @moosensei
+/CODE_OF_CONDUCT.md             @moosensei

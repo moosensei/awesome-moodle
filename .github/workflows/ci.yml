@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions: {}
+
+concurrency:
+  group: ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate README
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.13"
+
+      - name: Unit tests
+        run: python -m unittest discover -s tests
+
+      - name: Structure, links, and anchors
+        if: github.event_name == 'push'
+        run: python scripts/validate.py
+
+      - name: Same, plus the new links of the pull request
+        if: github.event_name == 'pull_request'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: python scripts/validate.py --base "$BASE_SHA" --online

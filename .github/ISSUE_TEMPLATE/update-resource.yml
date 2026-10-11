@@ -1,0 +1,56 @@
+name: Report a change or broken link
+description: A listed resource moved, broke, became paid, was abandoned, or is described incorrectly.
+title: "[Update]: "
+labels: ["update-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        If a listed link now leads to **phishing, malware, or a fake site**, do not use this form; report it privately as described in [SECURITY.md](https://github.com/moosensei/awesome-moodle/blob/main/SECURITY.md) so it can be removed quickly.
+
+        To add a new resource, use the **Add a resource** form.
+  - type: input
+    id: entry
+    attributes:
+      label: Entry name
+      description: Exactly as it appears in the list.
+      placeholder: Level Up!
+    validations:
+      required: true
+  - type: dropdown
+    id: change
+    attributes:
+      label: What changed
+      options:
+        - The link is broken
+        - The link moved to a new address
+        - The description is outdated or wrong
+        - It is now free, or now paid
+        - The project is abandoned or archived
+        - It belongs in another section
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What is wrong and what it should say instead. For a moved link, the new official address.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: An official page that confirms the change. Required when the link moves to a different domain.
+      placeholder: https://example.com/announcement
+  - type: dropdown
+    id: affiliation
+    attributes:
+      label: Your relationship to this project
+      options:
+        - I have no affiliation with this project
+        - I am its author or maintainer, work for the vendor, or was asked or paid by them
+        - Other relationship (explain in details)
+    validations:
+      required: true

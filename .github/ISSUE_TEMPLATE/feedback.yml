@@ -1,0 +1,16 @@
+name: Suggest an improvement
+description: Ideas for sections, structure, or the way the list works.
+title: "[Idea]: "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        To add or change a single entry, use the **Add a resource** or **Report a change or broken link** forms instead.
+  - type: textarea
+    id: idea
+    attributes:
+      label: Suggestion
+      description: What should change and why.
+    validations:
+      required: true

@@ -1,0 +1,5 @@
+# Consistent line endings: the bot reads and writes README.md through the API with LF.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.webp binary

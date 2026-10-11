@@ -1,0 +1,118 @@
+name: Add a resource
+description: Propose a plugin, theme, tool, or learning resource. A bot checks the form and opens a pull request for review.
+title: "[Add]: "
+labels: ["submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing. Please read [CONTRIBUTING.md](https://github.com/moosensei/awesome-moodle/blob/main/CONTRIBUTING.md) first. One form per resource.
+
+        **What happens next:** a bot checks your account (at least 30 days old, or a previously merged pull request here), the link, and the wording. If everything passes it opens a pull request; a maintainer reviews every pull request by hand and nothing is merged automatically. If the bot reports problems, edit this issue and the checks run again.
+
+        Plugin authors and vendors are welcome to submit their own work; just say so below. We never accept payment for listings.
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: The project's own name, without a tagline. Up to 60 characters.
+      placeholder: Level Up XP
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Link
+      description: The official page over HTTPS. For plugins, prefer the Moodle Marketplace page (it replaced the plugins directory). No shorteners, referral codes, or tracking parameters.
+      placeholder: https://marketplace.moodle.com/plugins/block_xp
+    validations:
+      required: true
+  - type: dropdown
+    id: section
+    attributes:
+      label: Section
+      options:
+        - Plugins › Content & Activities
+        - Plugins › Course Design
+        - Plugins › Analytics & Reports
+        - Plugins › Authentication & Security
+        - Plugins › AI & Machine Learning
+        - Plugins › Mobile & Accessibility
+        - Plugins › Gamification
+        - Plugins › Communication
+        - Plugins › Assessment › Advanced Question Types
+        - Plugins › Assessment › Proctoring & Academic Integrity
+        - Plugins › Assessment › Peer & Collaborative Assessment
+        - Integrations › Cloud Storage Repositories
+        - Integrations › Microsoft 365 & Google Workspace
+        - Integrations › LTI (Learning Tools Interoperability)
+        - Themes › Premium Themes
+        - Themes › Free Themes
+        - Development
+        - Tools & Utilities
+        - Hosting › Managed Hosting
+        - Hosting › Self-Hosted & VPS
+        - Migration to Moodle › Conversion & Import Tools
+        - Tutorials & Guides › For Educators
+        - Tutorials & Guides › For Administrators
+        - Tutorials & Guides › For Developers
+        - Videos & Channels › Community Channels
+        - Books & Publications
+        - Multilingual Resources › Multilingual Tools
+    validations:
+      required: true
+  - type: dropdown
+    id: pricing
+    attributes:
+      label: Pricing
+      description: "Free: no cost to use (open source or free of charge). Premium: paid, or the main features need a paid plan."
+      options:
+        - Free
+        - Premium
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: One or two factual sentences ending with a period, 40 to 300 characters. Say what it does and for whom. No links, `@` mentions, or marketing language ("best", "ultimate", "revolutionary", "#1").
+      placeholder: Adds experience points and levels to a course, awarded automatically for activity completion and participation.
+    validations:
+      required: true
+  - type: input
+    id: repo
+    attributes:
+      label: Source code
+      description: Optional. For open-source projects, the GitHub repository. The bot checks that it exists, is not archived, and is maintained.
+      placeholder: https://github.com/FMCorz/moodle-block_xp
+  - type: dropdown
+    id: affiliation
+    attributes:
+      label: Your relationship to this project
+      description: Authors and vendors are welcome; undisclosed affiliation leads to removal.
+      options:
+        - I have no affiliation with this project
+        - I am its author or maintainer, work for the vendor, or was asked or paid by them
+        - Other relationship (explain below)
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Why it belongs on the list
+      description: Who it is for, what it adds compared to the listed resources, which Moodle versions it supports, and how actively it is maintained. Shown to reviewers only, not added to the list.
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I have read CONTRIBUTING.md and checked that the resource is not already listed.
+          required: true
+        - label: The link is official and contains no affiliate, referral, or tracking parameters.
+          required: true
+        - label: The description is factual and the resource is actively maintained.
+          required: true
+        - label: I dedicate my contribution to the public domain under CC0 1.0.
+          required: true

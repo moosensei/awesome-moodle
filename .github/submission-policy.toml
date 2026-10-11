@@ -1,0 +1,30 @@
+# Rules for the submission bot (scripts/submission.py) and the pull-request guard (scripts/pr_guard.py).
+# Maintainers (the owner and collaborators with write access) skip the contributor checks.
+# CODEOWNERS requires a maintainer review for any change to this file.
+
+# Minimum age of a submitted site's domain, from RDAP registration data. Keeps out
+# short-lived and spam sites. The maintainer-approved label turns this error into a warning.
+min_domain_age_days = 90
+
+# GitHub logins that may not submit issues or pull requests.
+blocked_users = []
+
+# Domains that may never be listed (subdomains included).
+blocked_domains = []
+
+# Minimum age of the contributor's GitHub account, in days.
+# Contributors with a merged pull request in this repository are exempt.
+[min_account_age_days]
+new_entry = 30   # submission form, or a pull request that adds an entry
+update = 7       # pull requests that only edit existing text
+
+# Per-contributor limits for the submission form. Plugin authors often have several
+# plugins, so these are higher than in lists of commercial services.
+[limits]
+max_open_submissions = 3
+max_submissions_per_30_days = 6
+
+# Soft signals: the submission goes through, but the pull request is labelled needs-manual-review.
+[anomalies]
+young_account_days = 180       # account younger than this and without public repositories
+many_repos_no_followers = 200  # this many repositories and no followers

@@ -1,0 +1,37 @@
+# Weekly check of every README link: broken links and listed sites that started
+# redirecting to another domain (a sign of a sold, expired, or hijacked domain).
+# The report lives in one issue labelled link-report and is closed when clean.
+name: Link check
+
+on:
+  schedule:
+    - cron: "41 5 * * 1" # Mondays 05:41 UTC
+  workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: link-check
+  cancel-in-progress: false
+
+jobs:
+  report:
+    name: Report
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    permissions:
+      contents: read
+      issues: write # create, update, and close the report issue
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.13"
+
+      - name: Check links
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/linkcheck.py --issue
