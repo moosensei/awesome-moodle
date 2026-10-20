@@ -171,6 +171,7 @@ Mobile access and accessible course content. Moodle targets WCAG 2.2 AA conforma
 - 🗣️ [ReadSpeaker](https://www.readspeaker.com/) ![Premium](https://img.shields.io/badge/Premium-orange) - Text-to-speech that reads course content aloud.
 - 🎨 [Brickfield Accessibility Toolkit](https://brickfield.ie/) ![Premium](https://img.shields.io/badge/Premium-orange) - Finds and helps fix accessibility problems in course content. A starter version is built into Moodle.
 - 📖 [Ally](https://marketplace.moodle.com/plugins/tool_ally) ![Premium](https://img.shields.io/badge/Premium-orange) - Checks course files for accessibility and generates alternative formats such as audio, ePub, and tagged PDF.
+- 📱 [Accessibility panel (Oksigenia Access)](https://marketplace.moodle.com/plugins/local_oksigeniaaccess) ![Free](https://img.shields.io/badge/Free-green) - Floating accessibility panel for any theme with 17 controls, such as text size, line height, dyslexia font, contrast, colour-blind filters and a reading mask, plus four profile presets. Each user's choices stay in their own browser.
 
 ### 🎮 Gamification
 
