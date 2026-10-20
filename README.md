@@ -104,6 +104,7 @@ Interactive content and activity types for richer courses.
 - 🔄 [Drip Release](https://marketplace.moodle.com/plugins/tool_driprelease) ![Free](https://img.shields.io/badge/Free-green) - Releases course activities one after another on a schedule.
 - 👥 [PlayerGroup](https://marketplace.moodle.com/plugins/mod_playergroup) ![Free](https://img.shields.io/badge/Free-green) - Students form groups and invite peers themselves, with privacy levels, automatic groupings, and gradebook integration.
 - ⏰ [Late Penalty](https://marketplace.moodle.com/plugins/local_latepenalty) ![Free](https://img.shields.io/badge/Free-green) - Applies daily grade deductions to late submissions in any graded activity, with per-user overrides.
+- 🧩 [Alphabet Wheel](https://github.com/OksigeniaSL/h5p-oksigenia) ![Free](https://img.shields.io/badge/Free-green) - H5P content type with one clue for each letter of the alphabet. Students type the answers or pass letters to a later round, and each finished game sends one point per letter to the Moodle gradebook. In eight languages.
 
 ### 🎨 Course Design
 
