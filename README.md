@@ -309,6 +309,7 @@ Command-line tools, utilities, and companion apps for administrators and develop
 - 🐳 [alpine-moodle](https://github.com/erseco/alpine-moodle) - A lightweight Moodle Docker image (~100MB) built on Alpine Linux with PHP 8.3 FPM, Nginx, Redis session support, Moosh CLI, and multi-arch support. Configurable entirely through environment variables, with pre- and post-configuration hooks.
 - 🌐 [Moodle Playground](https://github.com/ateeducacion/moodle-playground) - Run Moodle directly in your browser using WebAssembly (WASM), no server required. Try it at [ateeducacion.github.io/moodle-playground](https://ateeducacion.github.io/moodle-playground/).
 - 🦁 [MBZoo](https://github.com/ateeducacion/mbzoo) - Inspect Moodle course backups (`.mbz`) directly in your browser without installing Moodle or uploading the backup. Explore course structure, activities, content, and files locally. Try it at [ateeducacion.github.io/mbzoo](https://ateeducacion.github.io/mbzoo/).
+- 🛠️ [Líteris SCORM Validator](https://literis.com.br/ferramentas/validador-scorm/) ![Free](https://img.shields.io/badge/Free-green) - Checks a SCORM package before it is uploaded to an LMS, covering package structure, manifest and media references, and SCORM API calls, with an explanation and suggested fix for each finding.
 
 [🔝 Back to top](#-contents)
 
