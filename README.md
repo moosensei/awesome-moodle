@@ -342,6 +342,7 @@ Moving from another LMS. Security incidents and restructuring at other vendors i
 ### 🛠️ Conversion & Import Tools
 
 - 📦 [Common Cartridge Import](https://docs.moodle.org/en/IMS_Common_Cartridge_import_and_export) ![Free](https://img.shields.io/badge/Free-green) - Built-in import of IMS Common Cartridge packages, the export format of Canvas, Blackboard, and other LMSs.
+- 🔄 [Líteris PPTX to H5P](https://literis.com.br/ferramentas/conversor-ppt-h5p/) ![Free](https://img.shields.io/badge/Free-green) - Converts a PowerPoint (.pptx) presentation into an H5P Course Presentation package that can be imported into Moodle and other H5P-compatible platforms. Free, no account required.
 
 ### ⚠️ Risk Mitigation & Data Handling
 
