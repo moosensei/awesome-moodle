@@ -212,6 +212,10 @@ Question types, proctoring, and peer assessment beyond the standard quiz.
 - 🎲 [All-or-Nothing Multiple Choice](https://marketplace.moodle.com/plugins/qtype_multichoiceset) ![Free](https://img.shields.io/badge/Free-green) - Multiple choice where students must select every correct answer to get credit.
 - 📊 [Ordering](https://marketplace.moodle.com/plugins/qtype_ordering) ![Free](https://img.shields.io/badge/Free-green) - Students drag items into the correct order, for procedures, timelines, and processes.
 
+#### 🧰 Question Preparation Tools
+
+- 🔀 [mona-tron-de](https://github.com/themonagroup/mona-tron-de) ![Free](https://img.shields.io/badge/Free-green) - Open-source (MIT) CLI and browser library that reads questions from plain text, Word, Aiken or GIFT and produces shuffled exam versions with answer keys. Exports Aiken and GIFT for re-importing into the Moodle question bank; supports locked options, reading groups and true/false statement sets.
+
 #### 🛡️ Proctoring & Academic Integrity
 
 - 🔒 [Safe Exam Browser](https://marketplace.moodle.com/plugins/quizaccess_safeexambrowser) ![Free](https://img.shields.io/badge/Free-green) - Locks down the student's device during quizzes, restricting other applications and websites.
